@@ -1,0 +1,1895 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VELA | VELORANTIS INTERNATIONAL TECHNOLOGIES</title>
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Elevated Executive Typography: Cormorant Garamond, Plus Jakarta Sans, Inter, Cairo & JetBrains Mono -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Strict Deep Velvet & Champagne Gold Palette Configuration -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        velvet: {
+                            950: '#11010C',
+                            900: '#1A0129',
+                            800: '#220135',
+                            700: '#3A025B',
+                            600: '#520380',
+                        },
+                        gold: {
+                            hairline: '#E5C185',
+                            deep: '#B88E4A'
+                        },
+                        lavender: {
+                            soft: '#D1C4E9',
+                            muted: '#9D8BB8'
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'Cairo', 'sans-serif'],
+                        brand: ['Plus Jakarta Sans', 'Cairo', 'sans-serif'],
+                        editorial: ['Cormorant Garamond', 'Cairo', 'serif'],
+                        mono: ['JetBrains Mono', 'monospace']
+                    }
+                }
+            }
+        }
+    </script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="antialiased selection:bg-velvet-600 selection:text-white">
+
+    <!-- Top Champagne Gold Reading Progress Hairline -->
+    <div id="scroll-progress"></div>
+
+    <!-- Custom Precision Luxury Mouse Cursor (Desktop Pointer Devices) -->
+    <div id="custom-cursor-ring" class="hidden lg:block"></div>
+    <div id="custom-cursor-dot" class="hidden lg:block"></div>
+
+    <!-- Interactive Mouse Ambient Spotlight Aura -->
+    <div id="cursor-glow" class="fixed w-[640px] h-[640px] rounded-full pointer-events-none z-0 opacity-35 transition-transform duration-200 ease-out hidden lg:block"
+         style="background: radial-gradient(circle, rgba(82,3,128,0.48) 0%, rgba(58,2,91,0.16) 38%, rgba(17,1,12,0) 70%); transform: translate(-50%, -50%);">
+    </div>
+
+    <!-- ==========================================
+         1. FLOATING CAPSULE EXECUTIVE NAVIGATION BAR
+    =========================================== -->
+    <header class="fixed top-4 inset-x-0 z-50 px-3 sm:px-6 pointer-events-none">
+        <div style="background-color: var(--nav-bg);" class="pointer-events-auto max-w-6xl mx-auto rounded-full border border-velvet-700/90 hover:border-gold-hairline/45 backdrop-blur-2xl shadow-[0_18px_45px_rgba(17,1,12,0.85)] px-4 sm:px-6 h-16 sm:h-[68px] flex items-center justify-between transition-all duration-300 relative">
+            
+            <!-- Left: VELA White & Gold 'V' Emblem + Bold Wordmark -->
+            <a href="#home" class="flex items-center gap-2.5 group interactive-target shrink-0">
+                <div class="w-9 h-9 rounded-full bg-velvet-950 border border-gold-hairline/60 flex items-center justify-center shadow-md shadow-velvet-600/35 group-hover:border-gold-hairline group-hover:scale-105 transition-all duration-300">
+                    <svg class="w-5 h-5" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="32" cy="32" r="30" fill="#15011D"/>
+                        <path d="M14 18H22.2L32 37.5L41.8 18H50L34.8 48H29.2L14 18Z" fill="#FFFFFF"/>
+                        <path d="M24.2 18H28.3L32 25.6L35.7 18H39.8L33.4 31H30.6L24.2 18Z" fill="#E5C185"/>
+                    </svg>
+                </div>
+                <span class="font-brand font-extrabold text-lg sm:text-xl tracking-tight theme-text-primary">VELA<span class="theme-gold">.</span></span>
+            </a>
+
+            <!-- Center Capsule Links (Clean Minimalist 4-Item Dropdown Navigation) -->
+            <nav class="hidden lg:flex items-center gap-8 text-[13px] font-brand font-medium theme-text-secondary">
+                
+                <!-- 1. Solutions & Services Hover Menu -->
+                <div class="relative group">
+                    <button type="button" class="interactive-target flex items-center gap-1.5 hover:text-gold-hairline transition-colors py-2 focus:outline-none">
+                        <span data-i18n="nav_services">Solutions</span>
+                        <svg class="w-3.5 h-3.5 text-gold-hairline transition-transform duration-200 group-hover:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                        </svg>
+                    </button>
+                    <div class="hidden group-hover:block absolute left-1/2 -translate-x-1/2 top-full pt-3 w-[380px] z-50">
+                        <div class="rounded-3xl bg-velvet-900/95 backdrop-blur-2xl border border-gold-hairline/40 p-3 shadow-2xl space-y-1.5">
+                            <a href="#divisions" class="interactive-target flex items-start gap-3 p-3 rounded-2xl hover:bg-velvet-800/90 transition-colors group/item">
+                                <span class="font-mono text-[10px] text-gold-hairline bg-velvet-950 border border-gold-hairline/30 px-2 py-1 rounded-lg mt-0.5">01</span>
+                                <div>
+                                    <div class="font-brand text-xs font-bold text-white group-hover/item:text-gold-hairline transition-colors" data-i18n="dd_div1_t">Web &amp; Enterprise Systems</div>
+                                    <div class="text-[11px] text-lavender-muted" data-i18n="dd_div1_d">Bespoke web platforms, ERP &amp; CRM engineering</div>
+                                </div>
+                            </a>
+                            <a href="#divisions" class="interactive-target flex items-start gap-3 p-3 rounded-2xl hover:bg-velvet-800/90 transition-colors group/item">
+                                <span class="font-mono text-[10px] text-gold-hairline bg-velvet-950 border border-gold-hairline/30 px-2 py-1 rounded-lg mt-0.5">02</span>
+                                <div>
+                                    <div class="font-brand text-xs font-bold text-white group-hover/item:text-gold-hairline transition-colors" data-i18n="dd_div2_t">AI &amp; Data Intelligence</div>
+                                    <div class="text-[11px] text-lavender-muted" data-i18n="dd_div2_d">Autonomous agents, private LLMs &amp; BI analytics</div>
+                                </div>
+                            </a>
+                            <a href="#divisions" class="interactive-target flex items-start gap-3 p-3 rounded-2xl hover:bg-velvet-800/90 transition-colors group/item">
+                                <span class="font-mono text-[10px] text-gold-hairline bg-velvet-950 border border-gold-hairline/30 px-2 py-1 rounded-lg mt-0.5">03</span>
+                                <div>
+                                    <div class="font-brand text-xs font-bold text-white group-hover/item:text-gold-hairline transition-colors" data-i18n="dd_div3_t">Enterprise IT &amp; Venture Building</div>
+                                    <div class="text-[11px] text-lavender-muted" data-i18n="dd_div3_d">Zero-Trust cloud &amp; zero-to-launch company building</div>
+                                </div>
+                            </a>
+                            <a href="#divisions" class="interactive-target flex items-start gap-3 p-3 rounded-2xl hover:bg-velvet-800/90 transition-colors group/item">
+                                <span class="font-mono text-[10px] text-gold-hairline bg-velvet-950 border border-gold-hairline/30 px-2 py-1 rounded-lg mt-0.5">04</span>
+                                <div>
+                                    <div class="font-brand text-xs font-bold text-white group-hover/item:text-gold-hairline transition-colors" data-i18n="dd_div4_t">VELA Labs &amp; GovTech</div>
+                                    <div class="text-[11px] text-lavender-muted" data-i18n="dd_div4_d">Public-sector innovation &amp; applied R&amp;D</div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 2. Execution & Tools Hover Menu -->
+                <div class="relative group">
+                    <button type="button" class="interactive-target flex items-center gap-1.5 hover:text-gold-hairline transition-colors py-2 focus:outline-none">
+                        <span data-i18n="nav_execution">Execution</span>
+                        <svg class="w-3.5 h-3.5 text-gold-hairline transition-transform duration-200 group-hover:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                        </svg>
+                    </button>
+                    <div class="hidden group-hover:block absolute left-1/2 -translate-x-1/2 top-full pt-3 w-[350px] z-50">
+                        <div class="rounded-3xl bg-velvet-900/95 backdrop-blur-2xl border border-gold-hairline/40 p-3 shadow-2xl space-y-1.5">
+                            <a href="#masterplan" class="interactive-target flex items-start gap-3 p-3 rounded-2xl hover:bg-velvet-800/90 transition-colors group/item">
+                                <span class="font-mono text-[10px] text-gold-hairline bg-velvet-950 border border-gold-hairline/30 px-2 py-1 rounded-lg mt-0.5">MAP</span>
+                                <div>
+                                    <div class="font-brand text-xs font-bold text-white group-hover/item:text-gold-hairline transition-colors" data-i18n="dd_exec1_t">Strategic Masterplan</div>
+                                    <div class="text-[11px] text-lavender-muted" data-i18n="dd_exec1_d">4-phase deterministic delivery roadmap</div>
+                                </div>
+                            </a>
+                            <a href="#architecture" class="interactive-target flex items-start gap-3 p-3 rounded-2xl hover:bg-velvet-800/90 transition-colors group/item">
+                                <span class="font-mono text-[10px] text-gold-hairline bg-velvet-950 border border-gold-hairline/30 px-2 py-1 rounded-lg mt-0.5">CFG</span>
+                                <div>
+                                    <div class="font-brand text-xs font-bold text-white group-hover/item:text-gold-hairline transition-colors" data-i18n="dd_exec2_t">Scope Configurator</div>
+                                    <div class="text-[11px] text-lavender-muted" data-i18n="dd_exec2_d">Assemble your custom technical mandate</div>
+                                </div>
+                            </a>
+                            <a href="#reviews" class="interactive-target flex items-start gap-3 p-3 rounded-2xl hover:bg-velvet-800/90 transition-colors group/item">
+                                <span class="font-mono text-[10px] text-gold-hairline bg-velvet-950 border border-gold-hairline/30 px-2 py-1 rounded-lg mt-0.5">4.9★</span>
+                                <div>
+                                    <div class="font-brand text-xs font-bold text-white group-hover/item:text-gold-hairline transition-colors" data-i18n="dd_exec3_t">Client Endorsements</div>
+                                    <div class="text-[11px] text-lavender-muted" data-i18n="dd_exec3_d">Verified reviews from global executives</div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 3. About Us (عنا) Hover Menu: Live Ops, Our Story, Our Ethos, Leadership -->
+                <div class="relative group">
+                    <button type="button" class="interactive-target flex items-center gap-1.5 text-gold-hairline font-semibold hover:opacity-90 transition-colors py-2 focus:outline-none">
+                        <span data-i18n="nav_company">About Us</span>
+                        <svg class="w-3.5 h-3.5 text-gold-hairline transition-transform duration-200 group-hover:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                        </svg>
+                    </button>
+                    <div class="hidden group-hover:block absolute left-1/2 -translate-x-1/2 top-full pt-3 w-[380px] z-50">
+                        <div class="rounded-3xl bg-velvet-900/95 backdrop-blur-2xl border border-gold-hairline/45 p-3 shadow-2xl space-y-1.5">
+                            <a href="#story-and-ops" class="interactive-target flex items-start gap-3 p-3 rounded-2xl hover:bg-velvet-800/90 transition-colors group/item">
+                                <span class="font-mono text-[10px] text-emerald-300 bg-velvet-950 border border-emerald-400/40 px-2 py-1 rounded-lg mt-0.5 flex items-center gap-1">
+                                    <span class="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-ping"></span>LIVE
+                                </span>
+                                <div>
+                                    <div class="font-brand text-xs font-bold text-white group-hover/item:text-gold-hairline transition-colors" data-i18n="dd_comp1_t">Live Operations &amp; Global Map</div>
+                                    <div class="text-[11px] text-lavender-muted" data-i18n="dd_comp1_d">Real-time engineering pods &amp; international specialists</div>
+                                </div>
+                            </a>
+                            <a href="#story-and-ops" class="interactive-target flex items-start gap-3 p-3 rounded-2xl hover:bg-velvet-800/90 transition-colors group/item">
+                                <span class="font-mono text-[10px] text-gold-hairline bg-velvet-950 border border-gold-hairline/30 px-2 py-1 rounded-lg mt-0.5">01</span>
+                                <div>
+                                    <div class="font-brand text-xs font-bold text-white group-hover/item:text-gold-hairline transition-colors" data-i18n="dd_comp2_t">Our Story &amp; Vision 2030</div>
+                                    <div class="text-[11px] text-lavender-muted" data-i18n="dd_comp2_d">From student code editor to sovereign tech vision</div>
+                                </div>
+                            </a>
+                            <a href="#leadership" class="interactive-target flex items-start gap-3 p-3 rounded-2xl hover:bg-velvet-800/90 transition-colors group/item">
+                                <span class="font-mono text-[10px] text-gold-hairline bg-velvet-950 border border-gold-hairline/30 px-2 py-1 rounded-lg mt-0.5">02</span>
+                                <div>
+                                    <div class="font-brand text-xs font-bold text-white group-hover/item:text-gold-hairline transition-colors" data-i18n="dd_comp3_t">Who We Are &amp; CEO</div>
+                                    <div class="text-[11px] text-lavender-muted" data-i18n="dd_comp3_d">Governance &amp; leadership of Aymane Assaidi</div>
+                                </div>
+                            </a>
+                            <a href="#ethos" class="interactive-target flex items-start gap-3 p-3 rounded-2xl hover:bg-velvet-800/90 transition-colors group/item">
+                                <span class="font-mono text-[10px] text-gold-hairline bg-velvet-950 border border-gold-hairline/30 px-2 py-1 rounded-lg mt-0.5">03</span>
+                                <div>
+                                    <div class="font-brand text-xs font-bold text-white group-hover/item:text-gold-hairline transition-colors" data-i18n="dd_comp4_t">Our Ethos &amp; Philosophy</div>
+                                    <div class="text-[11px] text-lavender-muted" data-i18n="dd_comp4_d">Human values, quiet mastery &amp; manifesto</div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 4. Contact Direct Link -->
+                <a href="#contact" class="interactive-target hover:text-gold-hairline transition-colors py-1" data-i18n="nav_contact">Contact</a>
+            </nav>
+
+            <!-- Right Capsule Controls: AR | EN Switcher, Theme Toggle & Get a Quote Pill CTA -->
+            <div class="flex items-center gap-2 sm:gap-3 shrink-0">
+                <div class="flex items-center gap-1.5 font-mono text-[11px] tracking-wider px-2.5 py-1 rounded-full bg-velvet-950/70 border border-velvet-700/70">
+                    <button type="button" id="lang-ar-btn" class="interactive-target text-lavender-muted hover:text-gold-hairline transition-colors">AR</button>
+                    <span class="text-velvet-700">|</span>
+                    <button type="button" id="lang-en-btn" class="interactive-target text-white font-bold">EN</button>
+                </div>
+
+                <button id="theme-toggle" type="button" aria-label="Toggle Dark or Light Mode"
+                        class="interactive-target w-9 h-9 rounded-full bg-velvet-950/80 border border-gold-hairline/35 text-gold-hairline hover:border-gold-hairline transition-all flex items-center justify-center"
+                        title="Switch Deep Velvet Dark / Pure Platinum Light">
+                    <svg id="icon-sun" class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"/>
+                    </svg>
+                    <svg id="icon-moon" class="w-4 h-4 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"/>
+                    </svg>
+                </button>
+
+                <a href="#contact" class="magnetic-btn interactive-target btn-velvet-primary px-4 sm:px-5 py-2.5 rounded-full text-xs font-brand font-bold tracking-wide flex items-center gap-2">
+                    <span data-i18n="nav_cta">Get a quote</span>
+                    <svg class="w-3.5 h-3.5 text-gold-hairline rtl:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2" d="M14 5l7 7m0 0l-7 7m7-7H3"/>
+                    </svg>
+                </a>
+                
+                <button id="mobile-menu-btn" type="button" aria-label="Toggle Navigation" class="lg:hidden w-9 h-9 rounded-full bg-velvet-950/90 border border-gold-hairline/30 text-gold-hairline flex items-center justify-center">
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+                    </svg>
+                </button>
+            </div>
+        </div>
+
+        <!-- Mobile Floating Capsule Dropdown (Organized into Clear Categories) -->
+        <div id="mobile-menu" class="hidden lg:hidden pointer-events-auto max-w-6xl mx-auto mt-2.5 rounded-3xl bg-velvet-900/95 backdrop-blur-2xl border border-gold-hairline/30 px-6 py-5 space-y-4 shadow-2xl">
+            <div>
+                <div class="font-mono text-[10px] uppercase tracking-widest text-gold-hairline mb-1.5" data-i18n="mob_cat_sol">SOLUTIONS &amp; EXECUTION</div>
+                <div class="space-y-1 pl-2 rtl:pl-0 rtl:pr-2 border-l rtl:border-l-0 rtl:border-r border-gold-hairline/30">
+                    <a href="#divisions" class="block py-1 text-sm font-brand text-lavender-soft hover:text-gold-hairline" data-i18n="mob_services">4 Core Divisions &amp; Services</a>
+                    <a href="#masterplan" class="block py-1 text-sm font-brand text-lavender-soft hover:text-gold-hairline" data-i18n="mob_masterplan">Strategic Masterplan</a>
+                    <a href="#architecture" class="block py-1 text-sm font-brand text-lavender-soft hover:text-gold-hairline" data-i18n="mob_work">Scope Configurator</a>
+                </div>
+            </div>
+            <div>
+                <div class="font-mono text-[10px] uppercase tracking-widest text-gold-hairline mb-1.5" data-i18n="mob_cat_about">ABOUT US (عنا)</div>
+                <div class="space-y-1 pl-2 rtl:pl-0 rtl:pr-2 border-l rtl:border-l-0 rtl:border-r border-gold-hairline/30">
+                    <a href="#story-and-ops" class="block py-1 text-sm font-brand text-emerald-300 font-semibold hover:text-gold-hairline" data-i18n="dd_comp1_t">Live Operations &amp; Global Map</a>
+                    <a href="#story-and-ops" class="block py-1 text-sm font-brand text-lavender-soft hover:text-gold-hairline" data-i18n="dd_comp2_t">Our Story &amp; Vision 2030</a>
+                    <a href="#leadership" class="block py-1 text-sm font-brand text-lavender-soft hover:text-gold-hairline" data-i18n="dd_comp3_t">Who We Are &amp; CEO</a>
+                    <a href="#ethos" class="block py-1 text-sm font-brand text-lavender-soft hover:text-gold-hairline" data-i18n="dd_comp4_t">Our Ethos &amp; Philosophy</a>
+                </div>
+            </div>
+            <div class="pt-2 border-t border-velvet-700/70 flex items-center justify-between">
+                <a href="#reviews" class="text-sm font-brand text-lavender-soft hover:text-gold-hairline" data-i18n="mob_reviews">Client Reviews</a>
+                <a href="#contact" class="text-sm font-brand text-gold-hairline font-bold" data-i18n="nav_contact">Contact →</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- ==========================================
+         2. EXECUTIVE HERO SECTION
+    =========================================== -->
+    <section id="home" class="relative min-h-screen flex items-center justify-center pt-28 pb-20 overflow-hidden luxury-grid">
+        <div class="ambient-orb w-[600px] h-[600px] bg-velvet-600/45 -top-32 -left-24"></div>
+        <div class="ambient-orb w-[520px] h-[520px] bg-velvet-700/45 bottom-6 -right-24"></div>
+
+        <svg class="absolute top-16 left-0 w-72 h-72 pointer-events-none opacity-65 hidden sm:block" viewBox="0 0 300 300" fill="none">
+            <path d="M-20 260 C 120 240, 240 120, 260 -20" stroke="url(#goldGrad1)" stroke-width="1.2"/>
+            <defs>
+                <linearGradient id="goldGrad1" x1="0" y1="260" x2="260" y2="0" gradientUnits="userSpaceOnUse">
+                    <stop offset="0%" stop-color="#E5C185" stop-opacity="0"/>
+                    <stop offset="50%" stop-color="#E5C185" stop-opacity="0.9"/>
+                    <stop offset="100%" stop-color="#E5C185" stop-opacity="0"/>
+                </linearGradient>
+            </defs>
+        </svg>
+
+        <svg class="absolute bottom-0 right-0 w-80 h-80 pointer-events-none opacity-65 hidden sm:block" viewBox="0 0 300 300" fill="none">
+            <path d="M40 320 C 60 180, 180 60, 320 40" stroke="url(#goldGrad2)" stroke-width="1.2"/>
+            <defs>
+                <linearGradient id="goldGrad2" x1="40" y1="320" x2="320" y2="40" gradientUnits="userSpaceOnUse">
+                    <stop offset="0%" stop-color="#E5C185" stop-opacity="0"/>
+                    <stop offset="50%" stop-color="#E5C185" stop-opacity="0.9"/>
+                    <stop offset="100%" stop-color="#E5C185" stop-opacity="0"/>
+                </linearGradient>
+            </defs>
+        </svg>
+
+        <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <div class="inline-flex items-center gap-3 px-5 py-2 rounded-full bg-velvet-800/90 border border-gold-hairline/45 mb-8 shadow-xl">
+                <span class="w-2 h-2 rounded-full bg-gold-hairline animate-pulse"></span>
+                <span class="font-mono text-[10px] sm:text-xs tracking-[0.22em] uppercase text-gold-hairline font-medium">VELORANTIS INTERNATIONAL TECHNOLOGIES | SOVEREIGN TECH CONGLOMERATE</span>
+            </div>
+
+            <h1 class="font-brand text-3xl sm:text-5xl md:text-6xl lg:text-[4.15rem] font-extrabold tracking-tight leading-[1.14] max-w-5xl mx-auto mb-6 theme-text-primary" data-i18n="hero_title">
+                Architecting Sovereign Digital Systems,
+                <span class="block font-editorial italic font-semibold text-4xl sm:text-6xl md:text-7xl text-gold-shimmer mt-1 pb-2">
+                    Artificial Intelligence &amp; Next-Generation Enterprise Ecosystems.
+                </span>
+            </h1>
+
+            <p class="text-base sm:text-lg md:text-xl theme-text-secondary max-w-3xl mx-auto leading-relaxed font-light mb-10" data-i18n="hero_sub">
+                Led by Founder &amp; CEO <span class="theme-text-primary font-semibold border-b border-gold-hairline/50 pb-0.5">Aymane Assaidi</span>, <span class="theme-text-primary font-brand font-bold tracking-wider">VELA</span> unites enterprise software engineering, applied AI &amp; data intelligence, resilient IT infrastructure, venture building, and sovereign public-sector innovation under one unified institutional blueprint.
+            </p>
+
+            <div class="flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-5 mb-16">
+                <a href="#masterplan" class="magnetic-btn interactive-target w-full sm:w-auto btn-velvet-primary px-8 py-4 rounded-full text-xs sm:text-sm font-brand tracking-[0.14em] uppercase font-bold flex items-center justify-center gap-3">
+                    <span data-i18n="hero_cta1">Explore Complete Blueprint</span>
+                    <svg class="w-5 h-5 text-gold-hairline rtl:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"/>
+                    </svg>
+                </a>
+                <a href="#ethos" class="magnetic-btn interactive-target w-full sm:w-auto btn-gold-glass px-8 py-4 rounded-full text-xs sm:text-sm font-brand tracking-[0.14em] uppercase font-semibold flex items-center justify-center gap-2">
+                    <span data-i18n="hero_cta2">Discover Our Ethos</span>
+                </a>
+            </div>
+
+            <!-- Live Executive Telemetry Bar -->
+            <div class="velvet-card tilt-card rounded-3xl p-6 sm:p-8 max-w-5xl mx-auto grid grid-cols-2 lg:grid-cols-4 gap-6 text-center relative overflow-hidden">
+                <div class="absolute top-0 inset-x-12 h-[1px] bg-gradient-to-r from-transparent via-gold-hairline/75 to-transparent"></div>
+                
+                <div class="p-2">
+                    <div class="font-brand text-2xl sm:text-3xl md:text-4xl font-extrabold theme-text-primary mb-1">4 Core<span class="theme-gold"> Divisions</span></div>
+                    <div class="font-mono text-[10px] sm:text-[11px] uppercase tracking-wider theme-text-muted">Integrated Tech Ecosystem</div>
+                </div>
+                
+                <div class="p-2 border-l rtl:border-l-0 rtl:border-r border-gold-hairline/20">
+                    <div class="font-brand text-2xl sm:text-3xl md:text-4xl font-extrabold theme-text-primary mb-1">99.99<span class="theme-gold">%</span></div>
+                    <div class="font-mono text-[10px] sm:text-[11px] uppercase tracking-wider theme-text-muted">Uptime &amp; Reliability SLA</div>
+                </div>
+                
+                <div class="p-2 lg:border-l rtl:lg:border-l-0 rtl:lg:border-r border-gold-hairline/20">
+                    <div class="font-brand text-2xl sm:text-3xl md:text-4xl font-extrabold theme-text-primary mb-1">Gov<span class="theme-gold">Tech</span></div>
+                    <div class="font-mono text-[10px] sm:text-[11px] uppercase tracking-wider theme-text-muted">Enterprise &amp; Public Sector Ready</div>
+                </div>
+                
+                <div class="p-2 border-l rtl:border-l-0 rtl:border-r border-gold-hairline/20">
+                    <div class="font-brand text-2xl sm:text-3xl md:text-4xl font-extrabold theme-text-primary mb-1">Global<span class="theme-gold"> Scale</span></div>
+                    <div class="font-mono text-[10px] sm:text-[11px] uppercase tracking-wider theme-text-muted">Sovereign Cloud Architecture</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================
+         3. COMPREHENSIVE DIVISIONS & SPECIALIZATIONS MATRIX
+    =========================================== -->
+    <section id="divisions" class="relative py-24 sm:py-32">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            
+            <div class="text-center max-w-3xl mx-auto mb-12 reveal-up">
+                <span class="font-mono text-xs tracking-[0.28em] uppercase theme-gold font-medium block mb-3">01 // COMPLETE CAPABILITY ARCHITECTURE</span>
+                <h2 class="font-brand text-3xl sm:text-4xl md:text-5xl font-extrabold theme-text-primary mb-5">
+                    Four Integrated <span class="font-editorial italic font-semibold theme-gold">Operating Divisions</span>
+                </h2>
+                <p class="theme-text-secondary text-base sm:text-lg leading-relaxed font-light">
+                    Every specialization within <strong class="theme-text-primary font-semibold">VELA</strong> is structured to operate independently or combine into a unified end-to-end transformation mandate for startups, corporations, and national institutions.
+                </p>
+            </div>
+
+            <!-- Interactive Division Filter Bar -->
+            <div class="flex flex-wrap items-center justify-center gap-2.5 sm:gap-3 mb-12 reveal-up">
+                <button type="button" data-filter="all" class="division-filter-btn interactive-target px-5 py-2.5 rounded-full font-brand text-xs tracking-wider uppercase font-bold bg-velvet-600 text-white border border-gold-hairline/60 shadow-lg transition-all">
+                    All 4 Divisions
+                </button>
+                <button type="button" data-filter="systems" class="division-filter-btn interactive-target px-5 py-2.5 rounded-full font-brand text-xs tracking-wider uppercase font-semibold bg-velvet-900/80 text-lavender-soft border border-velvet-700 hover:border-gold-hairline/40 transition-all">
+                    01. Web &amp; Systems
+                </button>
+                <button type="button" data-filter="ai" class="division-filter-btn interactive-target px-5 py-2.5 rounded-full font-brand text-xs tracking-wider uppercase font-semibold bg-velvet-900/80 text-lavender-soft border border-velvet-700 hover:border-gold-hairline/40 transition-all">
+                    02. AI &amp; Data Intelligence
+                </button>
+                <button type="button" data-filter="it" class="division-filter-btn interactive-target px-5 py-2.5 rounded-full font-brand text-xs tracking-wider uppercase font-semibold bg-velvet-900/80 text-lavender-soft border border-velvet-700 hover:border-gold-hairline/40 transition-all">
+                    03. IT &amp; Venture Building
+                </button>
+                <button type="button" data-filter="govtech" class="division-filter-btn interactive-target px-5 py-2.5 rounded-full font-brand text-xs tracking-wider uppercase font-semibold bg-velvet-900/80 text-lavender-soft border border-velvet-700 hover:border-gold-hairline/40 transition-all">
+                    04. VELA Labs &amp; GovTech
+                </button>
+            </div>
+
+            <!-- 4 Detailed Division Cards -->
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-7 lg:gap-8">
+                
+                <!-- DIVISION 01 -->
+                <div data-division="systems" class="division-card velvet-card tilt-card reveal-up rounded-3xl p-8 sm:p-10 group relative overflow-hidden">
+                    <div class="flex items-center justify-between mb-6">
+                        <div class="w-14 h-14 rounded-2xl bg-velvet-600/35 border border-gold-hairline/45 flex items-center justify-center group-hover:bg-velvet-600 group-hover:border-gold-hairline transition-all duration-300">
+                            <svg class="w-7 h-7 text-gold-hairline group-hover:text-white transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"/>
+                            </svg>
+                        </div>
+                        <span class="font-mono text-xs text-gold-hairline border border-gold-hairline/35 px-3.5 py-1 rounded-full bg-velvet-950/80">DIVISION 01</span>
+                    </div>
+
+                    <h3 class="font-brand text-xl sm:text-2xl font-bold theme-text-primary mb-3 group-hover:text-gold-hairline transition-colors">
+                        Sovereign Web &amp; Enterprise Systems Engineering
+                    </h3>
+                    <p class="theme-text-secondary text-sm sm:text-base leading-relaxed mb-6 font-light">
+                        We engineer mission-critical web platforms and custom enterprise software built to replace fragmented legacy tools with unified, ultra-fast digital ecosystems.
+                    </p>
+
+                    <div class="theme-inner-box rounded-2xl p-5 border mb-6 space-y-2.5">
+                        <div class="font-mono text-[10px] tracking-[0.2em] uppercase theme-gold mb-2">CORE DELIVERABLES &amp; SPECIALIZATIONS</div>
+                        <div class="flex items-start gap-2.5 text-xs sm:text-sm theme-text-secondary">
+                            <span class="theme-gold font-bold mt-0.5">◆</span>
+                            <span><strong class="theme-text-primary">Ultra-Premium Web Platforms:</strong> Executive corporate portals, SaaS products &amp; high-conversion digital flagships.</span>
+                        </div>
+                        <div class="flex items-start gap-2.5 text-xs sm:text-sm theme-text-secondary">
+                            <span class="theme-gold font-bold mt-0.5">◆</span>
+                            <span><strong class="theme-text-primary">Custom ERP &amp; CRM Systems:</strong> Tailored resource planning, financial workflows, and client lifecycle software.</span>
+                        </div>
+                        <div class="flex items-start gap-2.5 text-xs sm:text-sm theme-text-secondary">
+                            <span class="theme-gold font-bold mt-0.5">◆</span>
+                            <span><strong class="theme-text-primary">High-Security API &amp; Portal Architecture:</strong> Multi-tenant, fault-tolerant distributed backends engineered for scale.</span>
+                        </div>
+                    </div>
+
+                    <div class="flex items-center justify-between pt-4 border-t border-gold-hairline/20 text-xs font-mono tracking-[0.14em] theme-gold uppercase">
+                        <span>IDEAL FOR: ENTERPRISES &amp; HIGH-GROWTH FIRMS</span>
+                        <span>FULL IP OWNERSHIP</span>
+                    </div>
+                </div>
+
+                <!-- DIVISION 02 -->
+                <div data-division="ai" class="division-card velvet-card tilt-card reveal-up rounded-3xl p-8 sm:p-10 group relative overflow-hidden">
+                    <div class="flex items-center justify-between mb-6">
+                        <div class="w-14 h-14 rounded-2xl bg-velvet-600/35 border border-gold-hairline/45 flex items-center justify-center group-hover:bg-velvet-600 group-hover:border-gold-hairline transition-all duration-300">
+                            <svg class="w-7 h-7 text-gold-hairline group-hover:text-white transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+                            </svg>
+                        </div>
+                        <span class="font-mono text-xs text-gold-hairline border border-gold-hairline/35 px-3.5 py-1 rounded-full bg-velvet-950/80">DIVISION 02</span>
+                    </div>
+
+                    <h3 class="font-brand text-xl sm:text-2xl font-bold theme-text-primary mb-3 group-hover:text-gold-hairline transition-colors">
+                        Artificial Intelligence &amp; Data Intelligence
+                    </h3>
+                    <p class="theme-text-secondary text-sm sm:text-base leading-relaxed mb-6 font-light">
+                        Transforming raw institutional data into autonomous operational intelligence through private AI models, workflow automation, and executive decision analytics.
+                    </p>
+
+                    <div class="theme-inner-box rounded-2xl p-5 border mb-6 space-y-2.5">
+                        <div class="font-mono text-[10px] tracking-[0.2em] uppercase theme-gold mb-2">CORE DELIVERABLES &amp; SPECIALIZATIONS</div>
+                        <div class="flex items-start gap-2.5 text-xs sm:text-sm theme-text-secondary">
+                            <span class="theme-gold font-bold mt-0.5">◆</span>
+                            <span><strong class="theme-text-primary">AI Workflow Automation:</strong> Autonomous agents that eliminate repetitive operational bottlenecks across departments.</span>
+                        </div>
+                        <div class="flex items-start gap-2.5 text-xs sm:text-sm theme-text-secondary">
+                            <span class="theme-gold font-bold mt-0.5">◆</span>
+                            <span><strong class="theme-text-primary">Predictive &amp; Generative AI Integration:</strong> Private LLM &amp; RAG systems trained securely on your internal knowledge base.</span>
+                        </div>
+                        <div class="flex items-start gap-2.5 text-xs sm:text-sm theme-text-secondary">
+                            <span class="theme-gold font-bold mt-0.5">◆</span>
+                            <span><strong class="theme-text-primary">Big Data &amp; Executive BI Dashboards:</strong> Real-time KPI telemetry and forecasting for leadership clarity.</span>
+                        </div>
+                    </div>
+
+                    <div class="flex items-center justify-between pt-4 border-t border-gold-hairline/20 text-xs font-mono tracking-[0.14em] theme-gold uppercase">
+                        <span>IDEAL FOR: DATA-DRIVEN ORGANIZATIONS</span>
+                        <span>PRIVATE AI INFRASTRUCTURE</span>
+                    </div>
+                </div>
+
+                <!-- DIVISION 03 -->
+                <div data-division="it" class="division-card velvet-card tilt-card reveal-up rounded-3xl p-8 sm:p-10 group relative overflow-hidden">
+                    <div class="flex items-center justify-between mb-6">
+                        <div class="w-14 h-14 rounded-2xl bg-velvet-600/35 border border-gold-hairline/45 flex items-center justify-center group-hover:bg-velvet-600 group-hover:border-gold-hairline transition-all duration-300">
+                            <svg class="w-7 h-7 text-gold-hairline group-hover:text-white transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
+                            </svg>
+                        </div>
+                        <span class="font-mono text-xs text-gold-hairline border border-gold-hairline/35 px-3.5 py-1 rounded-full bg-velvet-950/80">DIVISION 03</span>
+                    </div>
+
+                    <h3 class="font-brand text-xl sm:text-2xl font-bold theme-text-primary mb-3 group-hover:text-gold-hairline transition-colors">
+                        Enterprise IT Infrastructure &amp; Venture Building
+                    </h3>
+                    <p class="theme-text-secondary text-sm sm:text-base leading-relaxed mb-6 font-light">
+                        Providing resilient cloud engineering, Zero-Trust cybersecurity governance, and complete zero-to-launch technical co-building for new companies and startups.
+                    </p>
+
+                    <div class="theme-inner-box rounded-2xl p-5 border mb-6 space-y-2.5">
+                        <div class="font-mono text-[10px] tracking-[0.2em] uppercase theme-gold mb-2">CORE DELIVERABLES &amp; SPECIALIZATIONS</div>
+                        <div class="flex items-start gap-2.5 text-xs sm:text-sm theme-text-secondary">
+                            <span class="theme-gold font-bold mt-0.5">◆</span>
+                            <span><strong class="theme-text-primary">Cloud Architecture &amp; DevOps:</strong> High-availability multi-region cloud clusters with automated CI/CD pipelines.</span>
+                        </div>
+                        <div class="flex items-start gap-2.5 text-xs sm:text-sm theme-text-secondary">
+                            <span class="theme-gold font-bold mt-0.5">◆</span>
+                            <span><strong class="theme-text-primary">Cybersecurity &amp; IT Governance:</strong> End-to-end encryption, access control audits, and 24/7 infrastructure stewardship.</span>
+                        </div>
+                        <div class="flex items-start gap-2.5 text-xs sm:text-sm theme-text-secondary">
+                            <span class="theme-gold font-bold mt-0.5">◆</span>
+                            <span><strong class="theme-text-primary">Venture Building (Zero-to-Launch):</strong> Acting as the dedicated technical co-builder to architect, launch, and scale new companies.</span>
+                        </div>
+                    </div>
+
+                    <div class="flex items-center justify-between pt-4 border-t border-gold-hairline/20 text-xs font-mono tracking-[0.14em] theme-gold uppercase">
+                        <span>IDEAL FOR: STARTUPS &amp; SCALING VENTURES</span>
+                        <span>ZERO-TRUST SECURITY</span>
+                    </div>
+                </div>
+
+                <!-- DIVISION 04 -->
+                <div data-division="govtech" class="division-card velvet-card tilt-card reveal-up rounded-3xl p-8 sm:p-10 group relative overflow-hidden">
+                    <div class="flex items-center justify-between mb-6">
+                        <div class="w-14 h-14 rounded-2xl bg-velvet-600/35 border border-gold-hairline/45 flex items-center justify-center group-hover:bg-velvet-600 group-hover:border-gold-hairline transition-all duration-300">
+                            <svg class="w-7 h-7 text-gold-hairline group-hover:text-white transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"/>
+                            </svg>
+                        </div>
+                        <span class="font-mono text-xs text-gold-hairline border border-gold-hairline/35 px-3.5 py-1 rounded-full bg-velvet-950/80">DIVISION 04</span>
+                    </div>
+
+                    <h3 class="font-brand text-xl sm:text-2xl font-bold theme-text-primary mb-3 group-hover:text-gold-hairline transition-colors">
+                        VELA Labs &amp; Public-Sector Innovation (GovTech)
+                    </h3>
+                    <p class="theme-text-secondary text-sm sm:text-base leading-relaxed mb-6 font-light">
+                        Our dedicated research, invention, and sovereign infrastructure arm—supporting national institutions with modern digital services while inventing proprietary VELA products.
+                    </p>
+
+                    <div class="theme-inner-box rounded-2xl p-5 border mb-6 space-y-2.5">
+                        <div class="font-mono text-[10px] tracking-[0.2em] uppercase theme-gold mb-2">CORE DELIVERABLES &amp; SPECIALIZATIONS</div>
+                        <div class="flex items-start gap-2.5 text-xs sm:text-sm theme-text-secondary">
+                            <span class="theme-gold font-bold mt-0.5">◆</span>
+                            <span><strong class="theme-text-primary">Sovereign GovTech Platforms:</strong> Citizen-centric digital portals, smart municipal systems, and national infrastructure software.</span>
+                        </div>
+                        <div class="flex items-start gap-2.5 text-xs sm:text-sm theme-text-secondary">
+                            <span class="theme-gold font-bold mt-0.5">◆</span>
+                            <span><strong class="theme-text-primary">Applied R&amp;D &amp; Invention Labs:</strong> Prototyping and engineering proprietary next-generation software and AI hardware-software systems.</span>
+                        </div>
+                        <div class="flex items-start gap-2.5 text-xs sm:text-sm theme-text-secondary">
+                            <span class="theme-gold font-bold mt-0.5">◆</span>
+                            <span><strong class="theme-text-primary">Institutional Digital Transformation:</strong> Modernizing public-sector workflows for transparency, speed, and data sovereignty.</span>
+                        </div>
+                    </div>
+
+                    <div class="flex items-center justify-between pt-4 border-t border-gold-hairline/20 text-xs font-mono tracking-[0.14em] theme-gold uppercase">
+                        <span>IDEAL FOR: PUBLIC INSTITUTIONS &amp; R&amp;D</span>
+                        <span>PROPRIETARY INNOVATION</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================
+         4. COMPLETE STRATEGIC MASTERPLAN & EXECUTION ROADMAP
+    =========================================== -->
+    <section id="masterplan" class="relative py-24 sm:py-32 theme-section-alt border-y border-gold-hairline/20 overflow-hidden">
+        <div class="ambient-orb w-[520px] h-[520px] bg-velvet-600/30 -top-20 right-10"></div>
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="text-center max-w-3xl mx-auto mb-14 reveal-up">
+                <span class="font-mono text-xs tracking-[0.28em] uppercase theme-gold font-medium block mb-3">02 // END-TO-END EXECUTION BLUEPRINT</span>
+                <h2 class="font-brand text-3xl sm:text-4xl md:text-5xl font-extrabold theme-text-primary mb-4">
+                    The VELA <span class="font-editorial italic font-semibold theme-gold">Strategic Masterplan</span>
+                </h2>
+                <p class="theme-text-secondary text-base sm:text-lg font-light">
+                    From initial institutional diagnosis to sovereign deployment and continuous R&amp;D innovation—click any phase below to inspect our exact execution methodology.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-10 reveal-up">
+                <button type="button" data-phase="0" class="phase-card interactive-target text-left rtl:text-right velvet-card rounded-3xl p-7 border-gold-hairline shadow-xl transition-all">
+                    <div class="flex items-center justify-between mb-4">
+                        <span class="font-mono text-xs px-3 py-1 rounded-full bg-velvet-600 text-white border border-gold-hairline/50">PHASE 01</span>
+                        <span class="font-mono text-xs theme-gold">WEEK 1–2</span>
+                    </div>
+                    <h3 class="font-brand text-lg font-bold theme-text-primary mb-2">Discovery, Architecture &amp; Institutional Audit</h3>
+                    <p class="theme-text-muted text-xs sm:text-sm leading-relaxed font-light">
+                        Deep system analysis, technical blueprint modeling, security threat mapping, and scalability planning.
+                    </p>
+                </button>
+
+                <button type="button" data-phase="1" class="phase-card interactive-target text-left rtl:text-right velvet-card rounded-3xl p-7 transition-all">
+                    <div class="flex items-center justify-between mb-4">
+                        <span class="font-mono text-xs px-3 py-1 rounded-full bg-velvet-950/85 theme-gold border border-gold-hairline/30">PHASE 02</span>
+                        <span class="font-mono text-xs theme-text-muted">WEEK 3–8</span>
+                    </div>
+                    <h3 class="font-brand text-lg font-bold theme-text-primary mb-2">Sovereign Engineering &amp; Core Development</h3>
+                    <p class="theme-text-muted text-xs sm:text-sm leading-relaxed font-light">
+                        Building bespoke web platforms, custom ERP/CRM systems, and resilient cloud infrastructure.
+                    </p>
+                </button>
+
+                <button type="button" data-phase="2" class="phase-card interactive-target text-left rtl:text-right velvet-card rounded-3xl p-7 transition-all">
+                    <div class="flex items-center justify-between mb-4">
+                        <span class="font-mono text-xs px-3 py-1 rounded-full bg-velvet-950/85 theme-gold border border-gold-hairline/30">PHASE 03</span>
+                        <span class="font-mono text-xs theme-text-muted">WEEK 9–12</span>
+                    </div>
+                    <h3 class="font-brand text-lg font-bold theme-text-primary mb-2">AI Integration &amp; Data Intelligence Layer</h3>
+                    <p class="theme-text-muted text-xs sm:text-sm leading-relaxed font-light">
+                        Deploying predictive analytics, autonomous workflow pipelines, and real-time executive BI dashboards.
+                    </p>
+                </button>
+
+                <button type="button" data-phase="3" class="phase-card interactive-target text-left rtl:text-right velvet-card rounded-3xl p-7 transition-all">
+                    <div class="flex items-center justify-between mb-4">
+                        <span class="font-mono text-xs px-3 py-1 rounded-full bg-velvet-950/85 theme-gold border border-gold-hairline/30">PHASE 04</span>
+                        <span class="font-mono text-xs theme-text-muted">ONGOING</span>
+                    </div>
+                    <h3 class="font-brand text-lg font-bold theme-text-primary mb-2">Deployment, Governance &amp; Continuous Innovation</h3>
+                    <p class="theme-text-muted text-xs sm:text-sm leading-relaxed font-light">
+                        24/7 enterprise IT operations, Zero-Trust cybersecurity monitoring, and VELA Labs R&amp;D scaling.
+                    </p>
+                </button>
+            </div>
+
+            <!-- Active Phase Deep-Dive Blueprint Readout -->
+            <div class="velvet-card rounded-3xl p-7 sm:p-10 reveal-up border border-gold-hairline/40">
+                <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+                    <div class="lg:col-span-7 space-y-4">
+                        <div class="inline-flex items-center gap-2 font-mono text-xs uppercase tracking-widest theme-gold">
+                            <span class="w-2 h-2 rounded-full bg-gold-hairline"></span>
+                            <span id="phase-detail-tag">PHASE 01 SPECIFICATION // INSTITUTIONAL BLUEPRINT</span>
+                        </div>
+                        <h3 id="phase-detail-title" class="font-brand text-2xl sm:text-3xl font-extrabold theme-text-primary">
+                            Discovery, Architecture &amp; Institutional Audit
+                        </h3>
+                        <p id="phase-detail-desc" class="theme-text-secondary text-sm sm:text-base leading-relaxed font-light">
+                            Before a single line of production code is written, VELA Principal Architects conduct an exhaustive audit of your operational workflows, data silos, and security posture—producing a deterministic technical blueprint with crystal-clear milestones and ROI projections.
+                        </p>
+                    </div>
+                    <div class="lg:col-span-5 theme-inner-box rounded-2xl p-6 border space-y-3">
+                        <div class="font-mono text-[11px] uppercase tracking-widest theme-gold">KEY EXECUTIVE OUTPUTS</div>
+                        <ul id="phase-detail-outputs" class="space-y-2.5 text-xs sm:text-sm theme-text-secondary">
+                            <li class="flex items-center gap-2.5"><span class="theme-gold">✓</span> Complete System Architecture &amp; Database Schema</li>
+                            <li class="flex items-center gap-2.5"><span class="theme-gold">✓</span> Zero-Trust Cybersecurity &amp; Compliance Matrix</li>
+                            <li class="flex items-center gap-2.5"><span class="theme-gold">✓</span> Fixed Milestone Roadmap &amp; Resource Allocation</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================
+         5. OUR ETHOS & HUMAN PHILOSOPHY (مشاعرنا وفلسفتنا)
+    =========================================== -->
+    <section id="ethos" class="relative py-24 sm:py-32 overflow-hidden">
+        <div class="ambient-orb w-[560px] h-[560px] bg-velvet-600/35 top-20 -right-24"></div>
+        <div class="ambient-orb w-[440px] h-[440px] bg-velvet-700/30 bottom-12 -left-20"></div>
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            
+            <!-- Editorial Section Header -->
+            <div class="text-center max-w-3xl mx-auto mb-16 reveal-up">
+                <span class="font-mono text-xs tracking-[0.28em] uppercase theme-gold font-medium block mb-3" data-i18n="ethos_badge">
+                    03 // OUR ETHOS &amp; HUMAN PHILOSOPHY
+                </span>
+                <h2 class="font-brand text-3xl sm:text-4xl md:text-5xl font-extrabold theme-text-primary mb-5 leading-tight" data-i18n="ethos_title">
+                    Beyond Code &amp; Systems: <span class="font-editorial italic font-semibold theme-gold">The Soul Behind VELA</span>
+                </h2>
+                <p class="theme-text-secondary text-base sm:text-lg leading-relaxed font-light" data-i18n="ethos_lead">
+                    True technological sovereignty is never born from cold algorithms alone—it begins with reverence for human ambition, quiet craftsmanship, and the responsibility of building what endures.
+                </p>
+            </div>
+
+            <!-- Curated Visual Gallery Grid (3 Architectural & Human-Centric Editorial Frames) -->
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 lg:gap-7 mb-16 reveal-up">
+                
+                <!-- Primary Large Visual Frame (7 Cols) -->
+                <div class="lg:col-span-7 velvet-card rounded-3xl overflow-hidden group relative min-h-[360px] sm:min-h-[440px] flex flex-col justify-end border border-gold-hairline/40">
+                    <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1400&q=85"
+                         alt="Sovereign Architectural Precision"
+                         loading="lazy"
+                         class="absolute inset-0 w-full h-full object-cover object-center transition-transform duration-1000 ease-out group-hover:scale-105 filter brightness-75 contrast-110">
+                    <div class="absolute inset-0 bg-gradient-to-t from-[#11010C] via-[#1A0129]/65 to-transparent"></div>
+                    <div class="relative z-10 p-7 sm:p-10">
+                        <span class="inline-block font-mono text-[10px] tracking-[0.24em] uppercase px-3 py-1 rounded-full bg-velvet-950/85 border border-gold-hairline/45 text-gold-hairline mb-3" data-i18n="ethos_img1_tag">
+                            I. ARCHITECTURAL CLARITY
+                        </span>
+                        <h3 class="font-brand text-2xl sm:text-3xl font-extrabold text-white mb-2.5" data-i18n="ethos_img1_title">
+                            Building Structures That Outlast Trends
+                        </h3>
+                        <p class="text-lavender-soft/90 text-sm sm:text-base font-light max-w-xl leading-relaxed" data-i18n="ethos_img1_desc">
+                            Every line of architecture we craft is treated like a cornerstone—designed with stillness, mathematical order, and deep respect for the institutions that rely on it.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Right Stacked Editorial Visual Frames (5 Cols) -->
+                <div class="lg:col-span-5 flex flex-col gap-6 lg:gap-7">
+                    
+                    <!-- Frame 02 -->
+                    <div class="velvet-card rounded-3xl overflow-hidden group relative flex-1 min-h-[210px] flex flex-col justify-end border border-gold-hairline/35">
+                        <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1000&q=85"
+                             alt="Human Purpose & Executive Collaboration"
+                             loading="lazy"
+                             class="absolute inset-0 w-full h-full object-cover object-center transition-transform duration-1000 ease-out group-hover:scale-105 filter brightness-75">
+                        <div class="absolute inset-0 bg-gradient-to-t from-[#11010C] via-[#1A0129]/70 to-transparent"></div>
+                        <div class="relative z-10 p-6 sm:p-7">
+                            <span class="font-mono text-[10px] tracking-[0.22em] uppercase text-gold-hairline block mb-1.5" data-i18n="ethos_img2_tag">
+                                II. HUMAN-FIRST ENGINEERING
+                            </span>
+                            <h3 class="font-brand text-lg sm:text-xl font-bold text-white mb-1" data-i18n="ethos_img2_title">
+                                Technology in Service of Dignity &amp; Focus
+                            </h3>
+                            <p class="text-lavender-soft/85 text-xs sm:text-sm font-light leading-relaxed" data-i18n="ethos_img2_desc">
+                                Behind every dashboard and workflow is a human team deserving calm, clarity, and freedom from friction.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Frame 03 -->
+                    <div class="velvet-card rounded-3xl overflow-hidden group relative flex-1 min-h-[210px] flex flex-col justify-end border border-gold-hairline/35">
+                        <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1000&q=85"
+                             alt="Global Horizons & Sovereign Future"
+                             loading="lazy"
+                             class="absolute inset-0 w-full h-full object-cover object-center transition-transform duration-1000 ease-out group-hover:scale-105 filter brightness-75">
+                        <div class="absolute inset-0 bg-gradient-to-t from-[#11010C] via-[#1A0129]/70 to-transparent"></div>
+                        <div class="relative z-10 p-6 sm:p-7">
+                            <span class="font-mono text-[10px] tracking-[0.22em] uppercase text-gold-hairline block mb-1.5" data-i18n="ethos_img3_tag">
+                                III. SOVEREIGN HORIZONS
+                            </span>
+                            <h3 class="font-brand text-lg sm:text-xl font-bold text-white mb-1" data-i18n="ethos_img3_title">
+                                Rooted in Purpose, Built for the World
+                            </h3>
+                            <p class="text-lavender-soft/85 text-xs sm:text-sm font-light leading-relaxed" data-i18n="ethos_img3_desc">
+                                Empowering founders, enterprises, and nations to own their digital destiny without compromise.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Interactive Emotional Manifesto & Reflections Reader -->
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-stretch mb-14 reveal-up">
+                
+                <!-- Left: Executive Manifesto Letter (7 Cols) -->
+                <div class="lg:col-span-7 velvet-card rounded-3xl p-8 sm:p-11 border border-gold-hairline/45 flex flex-col justify-between relative overflow-hidden">
+                    <div class="absolute top-0 inset-x-12 h-[1px] bg-gradient-to-r from-transparent via-gold-hairline/80 to-transparent"></div>
+                    
+                    <div>
+                        <div class="flex items-center justify-between gap-4 mb-6">
+                            <span class="font-mono text-[11px] tracking-[0.22em] uppercase theme-gold" data-i18n="ethos_letter_tag">A LETTER ON WHAT MOVES US</span>
+                            <span class="font-editorial italic text-2xl theme-gold">“</span>
+                        </div>
+
+                        <div class="space-y-4 theme-text-secondary text-sm sm:text-base md:text-[17px] leading-[1.85] font-light" data-i18n="ethos_letter_body">
+                            <p>
+                                At <strong class="theme-text-primary font-semibold">VELA</strong>, we do not measure our work solely by server uptime, model benchmarks, or lines of code deployed. We measure it by the quiet confidence a leader feels when their entire enterprise runs in harmony—and the relief a team experiences when complex technology finally feels effortless.
+                            </p>
+                            <p>
+                                We carry a deep emotional reverence for every vision entrusted to us. Behind every system we architect is a founder risking everything for an idea, an institution serving thousands of citizens, or a team striving to leave a meaningful mark.
+                            </p>
+                            <p>
+                                That is why we reject rushed shortcuts and noisy promises. We choose <strong class="theme-text-primary font-semibold">calm mastery, radical honesty, and enduring stewardship</strong>—building digital foundations that honor both human dignity and future generations.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="pt-7 mt-7 border-t border-gold-hairline/20 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+                        <div>
+                            <div class="font-brand text-base font-extrabold theme-text-primary">Aymane Assaidi</div>
+                            <div class="font-mono text-[10px] tracking-[0.2em] uppercase theme-text-muted" data-i18n="ethos_signer_role">Founder &amp; CEO — VELORANTIS INTERNATIONAL TECHNOLOGIES</div>
+                        </div>
+                        <div class="font-editorial italic text-2xl theme-gold">Aymane Assaidi</div>
+                    </div>
+                </div>
+
+                <!-- Right: Interactive Reflection Selector Card (5 Cols) -->
+                <div class="lg:col-span-5 velvet-card rounded-3xl p-8 sm:p-9 border border-velvet-700 flex flex-col justify-between">
+                    <div>
+                        <span class="font-mono text-[11px] tracking-[0.22em] uppercase theme-gold block mb-3" data-i18n="ethos_refl_tag">
+                            REFLECTIONS // INNER COMPASS
+                        </span>
+                        <h3 class="font-brand text-xl sm:text-2xl font-extrabold theme-text-primary mb-5" data-i18n="ethos_refl_heading">
+                            What Guides Every Decision
+                        </h3>
+
+                        <!-- Interactive Reflection Tabs -->
+                        <div class="flex flex-wrap gap-2 mb-6">
+                            <button type="button" data-reflection="0" class="ethos-tab interactive-target px-4 py-2 rounded-full font-brand text-xs font-bold bg-velvet-600 text-white border border-gold-hairline/60 transition-all" data-i18n="ethos_tab_0">
+                                On Craftsmanship
+                            </button>
+                            <button type="button" data-reflection="1" class="ethos-tab interactive-target px-4 py-2 rounded-full font-brand text-xs font-semibold bg-velvet-900/80 text-lavender-soft border border-velvet-700 hover:border-gold-hairline/40 transition-all" data-i18n="ethos_tab_1">
+                                On Partnership
+                            </button>
+                            <button type="button" data-reflection="2" class="ethos-tab interactive-target px-4 py-2 rounded-full font-brand text-xs font-semibold bg-velvet-900/80 text-lavender-soft border border-velvet-700 hover:border-gold-hairline/40 transition-all" data-i18n="ethos_tab_2">
+                                On Legacy
+                            </button>
+                        </div>
+
+                        <!-- Active Reflection Quote Box -->
+                        <div class="theme-inner-box rounded-2xl p-6 border border-gold-hairline/25 min-h-[195px] flex flex-col justify-center">
+                            <p id="ethos-reflection-quote" class="font-editorial italic text-xl sm:text-2xl theme-text-primary leading-relaxed mb-4">
+                                “Excellence does not need to shout. When architecture is built with patience, discipline, and care, its strength speaks for decades.”
+                            </p>
+                            <div id="ethos-reflection-caption" class="font-mono text-[10px] uppercase tracking-[0.2em] theme-gold">
+                                PRINCIPLE 01 // QUIET MASTERY
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="pt-6 mt-6 border-t border-gold-hairline/15 flex items-center justify-between text-xs theme-text-muted">
+                        <span data-i18n="ethos_footer_note">Written from the heart of VELA</span>
+                        <a href="#contact" class="interactive-target font-brand font-bold theme-gold hover:underline" data-i18n="ethos_footer_cta">Share Your Vision →</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 3 Human & Emotional Pillars -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 reveal-up">
+                <div class="velvet-card tilt-card rounded-3xl p-7 sm:p-8 border border-gold-hairline/30">
+                    <div class="w-11 h-11 rounded-2xl bg-velvet-600/35 border border-gold-hairline/45 flex items-center justify-center font-mono text-xs font-bold theme-gold mb-5">01</div>
+                    <h4 class="font-brand text-lg sm:text-xl font-bold theme-text-primary mb-2.5" data-i18n="ethos_pillar1_t">Quiet Craftsmanship</h4>
+                    <p class="theme-text-secondary text-sm leading-relaxed font-light" data-i18n="ethos_pillar1_d">
+                        We pour care into invisible details—clean architecture, resilient security, and thoughtful interfaces—because integrity lives in what users never have to worry about.
+                    </p>
+                </div>
+
+                <div class="velvet-card tilt-card rounded-3xl p-7 sm:p-8 border border-gold-hairline/30">
+                    <div class="w-11 h-11 rounded-2xl bg-velvet-600/35 border border-gold-hairline/45 flex items-center justify-center font-mono text-xs font-bold theme-gold mb-5">02</div>
+                    <h4 class="font-brand text-lg sm:text-xl font-bold theme-text-primary mb-2.5" data-i18n="ethos_pillar2_t">Sacred Trust &amp; Empathy</h4>
+                    <p class="theme-text-secondary text-sm leading-relaxed font-light" data-i18n="ethos_pillar2_d">
+                        We listen before we architect. Understanding your fears, ambitions, and operational realities allows us to stand beside you as true stewards—not distant vendors.
+                    </p>
+                </div>
+
+                <div class="velvet-card tilt-card rounded-3xl p-7 sm:p-8 border border-gold-hairline/30">
+                    <div class="w-11 h-11 rounded-2xl bg-velvet-600/35 border border-gold-hairline/45 flex items-center justify-center font-mono text-xs font-bold theme-gold mb-5">03</div>
+                    <h4 class="font-brand text-lg sm:text-xl font-bold theme-text-primary mb-2.5" data-i18n="ethos_pillar3_t">Enduring Human Impact</h4>
+                    <p class="theme-text-secondary text-sm leading-relaxed font-light" data-i18n="ethos_pillar3_d">
+                        Every platform, AI engine, and public service we build is judged by a single question: does it genuinely elevate people’s work, dignity, and future?
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ==========================================
+         6. INTERACTIVE SOVEREIGN ARCHITECTURE & SCOPE CONFIGURATOR
+    =========================================== -->
+    <section id="architecture" class="relative py-24 sm:py-32 theme-section-alt border-y border-gold-hairline/20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="text-center max-w-3xl mx-auto mb-14 reveal-up">
+                <span class="font-mono text-xs tracking-[0.28em] uppercase theme-gold font-medium block mb-3">04 // INTERACTIVE SOLUTION ARCHITECT</span>
+                <h2 class="font-brand text-3xl sm:text-4xl md:text-5xl font-extrabold theme-text-primary mb-4">
+                    Configure Your <span class="font-editorial italic font-semibold theme-gold">Sovereign Mandate</span>
+                </h2>
+                <p class="theme-text-secondary text-base sm:text-lg font-light">
+                    Select your organization profile and toggle the exact VELA divisions and capabilities you require to generate an instant tailored blueprint and pre-fill your executive briefing.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start reveal-up">
+                <div class="lg:col-span-7 space-y-7">
+                    <div>
+                        <label class="block font-mono text-xs uppercase tracking-widest theme-gold mb-3">STEP 01 // SELECT INSTITUTIONAL PROFILE</label>
+                        <div class="grid grid-cols-1 sm:grid-cols-3 gap-3">
+                            <button type="button" data-org="Startup / High-Growth Venture" class="org-btn interactive-target active-org py-3.5 px-4 rounded-2xl font-brand text-xs sm:text-sm font-bold bg-velvet-600 text-white border border-gold-hairline/60 shadow-lg transition-all text-center">
+                                Startup &amp; Venture
+                            </button>
+                            <button type="button" data-org="Enterprise / Corporate Group" class="org-btn interactive-target py-3.5 px-4 rounded-2xl font-brand text-xs sm:text-sm font-semibold bg-velvet-900/80 text-lavender-soft border border-velvet-700 hover:border-gold-hairline/40 transition-all text-center">
+                                Enterprise &amp; Corporate
+                            </button>
+                            <button type="button" data-org="Government & Public Sector" class="org-btn interactive-target py-3.5 px-4 rounded-2xl font-brand text-xs sm:text-sm font-semibold bg-velvet-900/80 text-lavender-soft border border-velvet-700 hover:border-gold-hairline/40 transition-all text-center">
+                                Government &amp; Public Sector
+                            </button>
+                        </div>
+                    </div>
+
+                    <div>
+                        <label class="block font-mono text-xs uppercase tracking-widest theme-gold mb-3">STEP 02 // SELECT REQUIRED VELA SPECIALIZATIONS</label>
+                        <div class="space-y-3">
+                            <button type="button" data-module="Web & Enterprise Systems (ERP/CRM)"
+                                    class="module-toggle interactive-target w-full text-left rtl:text-right p-4 sm:p-5 rounded-2xl bg-velvet-900/90 border border-gold-hairline/65 transition-all flex items-center justify-between gap-4 shadow-md">
+                                <div>
+                                    <div class="font-brand font-bold text-white text-sm sm:text-base">Web Platforms &amp; Enterprise Systems (ERP / CRM)</div>
+                                    <div class="text-lavender-muted text-xs mt-0.5">Bespoke web architecture, internal operations software &amp; executive client portals</div>
+                                </div>
+                                <span class="mod-check w-7 h-7 rounded-full bg-velvet-600 border border-gold-hairline flex items-center justify-center text-gold-hairline text-xs font-bold shrink-0">✓</span>
+                            </button>
+
+                            <button type="button" data-module="AI Automation & Big Data Analysis"
+                                    class="module-toggle interactive-target w-full text-left rtl:text-right p-4 sm:p-5 rounded-2xl bg-velvet-950/80 border border-velvet-700 hover:border-gold-hairline/40 transition-all flex items-center justify-between gap-4">
+                                <div>
+                                    <div class="font-brand font-bold text-white text-sm sm:text-base">AI Integration &amp; Data Intelligence</div>
+                                    <div class="text-lavender-muted text-xs mt-0.5">Autonomous AI workflows, predictive analytics &amp; real-time executive BI dashboards</div>
+                                </div>
+                                <span class="mod-check w-7 h-7 rounded-full bg-velvet-900 border border-velvet-700 flex items-center justify-center text-transparent text-xs font-bold shrink-0">✓</span>
+                            </button>
+
+                            <button type="button" data-module="Enterprise IT & Cloud Infrastructure"
+                                    class="module-toggle interactive-target w-full text-left rtl:text-right p-4 sm:p-5 rounded-2xl bg-velvet-950/80 border border-velvet-700 hover:border-gold-hairline/40 transition-all flex items-center justify-between gap-4">
+                                <div>
+                                    <div class="font-brand font-bold text-white text-sm sm:text-base">Enterprise IT &amp; Cloud Infrastructure</div>
+                                    <div class="text-lavender-muted text-xs mt-0.5">Sovereign cloud architecture, cybersecurity hardening &amp; 24/7 IT operations</div>
+                                </div>
+                                <span class="mod-check w-7 h-7 rounded-full bg-velvet-900 border border-velvet-700 flex items-center justify-center text-transparent text-xs font-bold shrink-0">✓</span>
+                            </button>
+
+                            <button type="button" data-module="Venture Building (Zero-to-Launch)"
+                                    class="module-toggle interactive-target w-full text-left rtl:text-right p-4 sm:p-5 rounded-2xl bg-velvet-950/80 border border-velvet-700 hover:border-gold-hairline/40 transition-all flex items-center justify-between gap-4">
+                                <div>
+                                    <div class="font-brand font-bold text-white text-sm sm:text-base">Venture Building (End-to-End Company Creation)</div>
+                                    <div class="text-lavender-muted text-xs mt-0.5">Complete technical co-building, product architecture &amp; market launch for new companies</div>
+                                </div>
+                                <span class="mod-check w-7 h-7 rounded-full bg-velvet-900 border border-velvet-700 flex items-center justify-center text-transparent text-xs font-bold shrink-0">✓</span>
+                            </button>
+
+                            <button type="button" data-module="GovTech & Applied R&D Innovation"
+                                    class="module-toggle interactive-target w-full text-left rtl:text-right p-4 sm:p-5 rounded-2xl bg-velvet-950/80 border border-velvet-700 hover:border-gold-hairline/40 transition-all flex items-center justify-between gap-4">
+                                <div>
+                                    <div class="font-brand font-bold text-white text-sm sm:text-base">GovTech &amp; Applied R&amp;D Innovation (VELA Labs)</div>
+                                    <div class="text-lavender-muted text-xs mt-0.5">National institution platforms, public-sector digital transformation &amp; custom R&amp;D</div>
+                                </div>
+                                <span class="mod-check w-7 h-7 rounded-full bg-velvet-900 border border-velvet-700 flex items-center justify-center text-transparent text-xs font-bold shrink-0">✓</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="lg:col-span-5 velvet-card rounded-3xl p-7 sm:p-9 border border-gold-hairline/50 relative overflow-hidden">
+                    <div class="absolute top-0 inset-x-0 h-[2px] bg-gradient-to-r from-transparent via-gold-hairline to-transparent"></div>
+                    
+                    <div class="flex items-center justify-between mb-4">
+                        <span class="font-mono text-[10px] tracking-[0.2em] theme-gold uppercase">TAILORED ARCHITECTURAL DOSSIER</span>
+                        <span id="config-count" class="font-mono text-xs px-2.5 py-1 rounded-full bg-velvet-600/60 border border-gold-hairline/40 text-white">1 Selected</span>
+                    </div>
+
+                    <h3 class="font-brand text-xl sm:text-2xl font-extrabold theme-text-primary mb-2">Mandate Specification</h3>
+                    <div class="text-xs font-mono theme-text-muted mb-5">
+                        CLIENT PROFILE: <span id="selected-org-display" class="theme-gold font-semibold">Startup / High-Growth Venture</span>
+                    </div>
+
+                    <div id="configured-modules-list" class="space-y-2.5 mb-6 min-h-[100px]">
+                        <div class="flex items-center gap-2.5 text-xs sm:text-sm theme-text-secondary theme-inner-box px-3.5 py-2.5 rounded-xl border">
+                            <span class="w-1.5 h-1.5 rounded-full bg-gold-hairline"></span>
+                            <span>Web &amp; Enterprise Systems (ERP/CRM)</span>
+                        </div>
+                    </div>
+
+                    <div class="grid grid-cols-2 gap-3 pt-4 border-t border-gold-hairline/20 mb-6">
+                        <div>
+                            <div class="font-mono text-[10px] theme-text-muted uppercase">DELIVERY CADENCE</div>
+                            <div id="config-timeline" class="font-brand text-sm sm:text-base font-bold theme-text-primary mt-0.5">6–10 Weeks</div>
+                        </div>
+                        <div>
+                            <div class="font-mono text-[10px] theme-text-muted uppercase">EXECUTION MODEL</div>
+                            <div class="font-brand text-sm sm:text-base font-bold theme-gold mt-0.5">Principal Pod + SLA</div>
+                        </div>
+                    </div>
+
+                    <button type="button" id="transfer-scope-btn" class="magnetic-btn interactive-target w-full btn-velvet-primary py-4 px-6 rounded-xl font-brand text-xs sm:text-sm tracking-[0.14em] uppercase font-bold flex items-center justify-center gap-2">
+                        <span>Transfer Blueprint to Consultation</span>
+                        <svg class="w-4 h-4 text-gold-hairline" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"/>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================
+         7. EXECUTIVE CLIENT REVIEWS & INSTITUTIONAL ENDORSEMENTS
+    =========================================== -->
+    <section id="reviews" class="relative py-24 sm:py-32">
+        <div class="ambient-orb w-[500px] h-[500px] bg-velvet-600/25 top-16 left-10"></div>
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="flex flex-col lg:flex-row lg:items-end justify-between gap-8 mb-12 reveal-up">
+                <div class="max-w-2xl">
+                    <span class="font-mono text-xs tracking-[0.28em] uppercase theme-gold font-medium block mb-3">05 // VERIFIED EXECUTIVE ENDORSEMENTS</span>
+                    <h2 class="font-brand text-3xl sm:text-4xl md:text-5xl font-extrabold theme-text-primary mb-4">
+                        Trusted by Visionary <span class="font-editorial italic font-semibold theme-gold">Founders &amp; Leaders</span>
+                    </h2>
+                    <p class="theme-text-secondary text-base sm:text-lg font-light leading-relaxed">
+                        From high-growth ventures to enterprise modernization mandates, partners rely on <strong class="theme-text-primary font-semibold">VELA</strong> and Founder &amp; CEO <strong class="theme-text-primary font-semibold">Aymane Assaidi</strong> for precision engineering and measurable impact.
+                    </p>
+                </div>
+
+                <div class="velvet-card rounded-2xl px-6 py-5 border border-gold-hairline/45 flex items-center gap-5 shrink-0">
+                    <div>
+                        <div class="font-brand text-3xl sm:text-4xl font-extrabold theme-text-primary leading-none">4.9<span class="theme-gold text-xl">/5.0</span></div>
+                        <div class="flex items-center gap-1 text-gold-hairline mt-1.5 text-sm">
+                            <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+                        </div>
+                    </div>
+                    <div class="h-10 w-[1px] bg-gold-hairline/25"></div>
+                    <div>
+                        <div class="font-brand text-xs font-bold uppercase tracking-wider theme-text-primary">Executive Satisfaction</div>
+                        <div class="font-mono text-[11px] theme-text-muted mt-0.5">Enterprise &amp; Venture Standards</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex flex-wrap items-center gap-2.5 mb-10 reveal-up">
+                <button type="button" data-review-filter="all" class="review-filter-btn interactive-target px-4 py-2 rounded-full font-brand text-xs tracking-wider uppercase font-bold bg-velvet-600 text-white border border-gold-hairline/60 shadow-md transition-all">
+                    All Reviews (6)
+                </button>
+                <button type="button" data-review-filter="systems" class="review-filter-btn interactive-target px-4 py-2 rounded-full font-brand text-xs tracking-wider uppercase font-semibold bg-velvet-900/80 text-lavender-soft border border-velvet-700 hover:border-gold-hairline/40 transition-all">
+                    Enterprise Systems
+                </button>
+                <button type="button" data-review-filter="ai" class="review-filter-btn interactive-target px-4 py-2 rounded-full font-brand text-xs tracking-wider uppercase font-semibold bg-velvet-900/80 text-lavender-soft border border-velvet-700 hover:border-gold-hairline/40 transition-all">
+                    AI &amp; Data Intelligence
+                </button>
+                <button type="button" data-review-filter="venture" class="review-filter-btn interactive-target px-4 py-2 rounded-full font-brand text-xs tracking-wider uppercase font-semibold bg-velvet-900/80 text-lavender-soft border border-velvet-700 hover:border-gold-hairline/40 transition-all">
+                    Venture Building
+                </button>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7">
+                <div data-review-cat="systems" class="review-card velvet-card tilt-card reveal-up rounded-3xl p-7 sm:p-8 flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-5">
+                            <div class="flex items-center gap-1 text-gold-hairline text-sm"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
+                            <span class="font-mono text-[10px] uppercase tracking-wider px-2.5 py-1 rounded-full bg-velvet-950/85 border border-gold-hairline/35 theme-gold">ENTERPRISE ERP</span>
+                        </div>
+                        <p class="theme-text-secondary text-sm leading-relaxed font-light italic mb-6">
+                            “VELA completely replaced three fragmented legacy platforms with a unified sovereign ERP and client portal. Working directly with Aymane Assaidi gave our executive board total confidence from architecture blueprint to zero-downtime launch.”
+                        </p>
+                    </div>
+                    <div class="pt-4 border-t border-gold-hairline/20 flex items-center gap-3.5">
+                        <div class="w-10 h-10 rounded-full bg-velvet-600/50 border border-gold-hairline/50 flex items-center justify-center font-brand font-bold text-xs text-white shrink-0">KM</div>
+                        <div>
+                            <div class="font-brand text-sm font-bold theme-text-primary">Karim El Mansouri</div>
+                            <div class="font-mono text-[10px] theme-text-muted uppercase">Chief Technology Officer • Atlas Logistics Group</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div data-review-cat="ai" class="review-card velvet-card tilt-card reveal-up rounded-3xl p-7 sm:p-8 flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-5">
+                            <div class="flex items-center gap-1 text-gold-hairline text-sm"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
+                            <span class="font-mono text-[10px] uppercase tracking-wider px-2.5 py-1 rounded-full bg-velvet-950/85 border border-gold-hairline/35 theme-gold">AI &amp; DATA BI</span>
+                        </div>
+                        <p class="theme-text-secondary text-sm leading-relaxed font-light italic mb-6">
+                            “The private AI workflow automation and executive Business Intelligence suite VELA engineered reduced our manual reporting overhead by 68% in under two months. Their precision in data security is unmatched.”
+                        </p>
+                    </div>
+                    <div class="pt-4 border-t border-gold-hairline/20 flex items-center gap-3.5">
+                        <div class="w-10 h-10 rounded-full bg-velvet-600/50 border border-gold-hairline/50 flex items-center justify-center font-brand font-bold text-xs text-white shrink-0">CL</div>
+                        <div>
+                            <div class="font-brand text-sm font-bold theme-text-primary">Claire Laurent</div>
+                            <div class="font-mono text-[10px] theme-text-muted uppercase">VP of Digital Operations • Valmont Capital (Paris)</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div data-review-cat="venture" class="review-card velvet-card tilt-card reveal-up rounded-3xl p-7 sm:p-8 flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-5">
+                            <div class="flex items-center gap-1 text-gold-hairline text-sm"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
+                            <span class="font-mono text-[10px] uppercase tracking-wider px-2.5 py-1 rounded-full bg-velvet-950/85 border border-gold-hairline/35 theme-gold">VENTURE BUILDING</span>
+                        </div>
+                        <p class="theme-text-secondary text-sm leading-relaxed font-light italic mb-6">
+                            “We came to VELA with a bold FinTech concept and zero technical infrastructure. Aymane and his engineering team co-built our entire platform, cloud security, and brand flagship—helping us close our seed round immediately after launch.”
+                        </p>
+                    </div>
+                    <div class="pt-4 border-t border-gold-hairline/20 flex items-center gap-3.5">
+                        <div class="w-10 h-10 rounded-full bg-velvet-600/50 border border-gold-hairline/50 flex items-center justify-center font-brand font-bold text-xs text-white shrink-0">TR</div>
+                        <div>
+                            <div class="font-brand text-sm font-bold theme-text-primary">Tariq Al-Rashid</div>
+                            <div class="font-mono text-[10px] theme-text-muted uppercase">Co-Founder &amp; Managing Director • NexaPay MENA</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div data-review-cat="systems" class="review-card velvet-card tilt-card reveal-up rounded-3xl p-7 sm:p-8 flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-5">
+                            <div class="flex items-center gap-1 text-gold-hairline text-sm"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
+                            <span class="font-mono text-[10px] uppercase tracking-wider px-2.5 py-1 rounded-full bg-velvet-950/85 border border-gold-hairline/35 theme-gold">WEB ARCHITECTURE</span>
+                        </div>
+                        <p class="theme-text-secondary text-sm leading-relaxed font-light italic mb-6">
+                            “Rarely do you find a technology partner that combines ultra-luxury aesthetic sensibility with deep distributed systems engineering. Our new corporate platform elevated our global brand positioning overnight.”
+                        </p>
+                    </div>
+                    <div class="pt-4 border-t border-gold-hairline/20 flex items-center gap-3.5">
+                        <div class="w-10 h-10 rounded-full bg-velvet-600/50 border border-gold-hairline/50 flex items-center justify-center font-brand font-bold text-xs text-white shrink-0">HV</div>
+                        <div>
+                            <div class="font-brand text-sm font-bold theme-text-primary">Hendrik Van Der Berg</div>
+                            <div class="font-mono text-[10px] theme-text-muted uppercase">Managing Partner • Nordik Ventures (Amsterdam)</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div data-review-cat="ai" class="review-card velvet-card tilt-card reveal-up rounded-3xl p-7 sm:p-8 flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-5">
+                            <div class="flex items-center gap-1 text-gold-hairline text-sm"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
+                            <span class="font-mono text-[10px] uppercase tracking-wider px-2.5 py-1 rounded-full bg-velvet-950/85 border border-gold-hairline/35 theme-gold">PREDICTIVE ANALYTICS</span>
+                        </div>
+                        <p class="theme-text-secondary text-sm leading-relaxed font-light italic mb-6">
+                            “VELA’s Data Intelligence division unified millions of supply-chain records into a live forecasting engine. Their governance model ensured 100% of our proprietary algorithms stayed under our full ownership.”
+                        </p>
+                    </div>
+                    <div class="pt-4 border-t border-gold-hairline/20 flex items-center gap-3.5">
+                        <div class="w-10 h-10 rounded-full bg-velvet-600/50 border border-gold-hairline/50 flex items-center justify-center font-brand font-bold text-xs text-white shrink-0">SB</div>
+                        <div>
+                            <div class="font-brand text-sm font-bold theme-text-primary">Salma Benjelloun</div>
+                            <div class="font-mono text-[10px] theme-text-muted uppercase">Director of Strategy • Maghreb Industrial Holdings</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div data-review-cat="venture" class="review-card velvet-card tilt-card reveal-up rounded-3xl p-7 sm:p-8 flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-5">
+                            <div class="flex items-center gap-1 text-gold-hairline text-sm"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
+                            <span class="font-mono text-[10px] uppercase tracking-wider px-2.5 py-1 rounded-full bg-velvet-950/85 border border-gold-hairline/35 theme-gold">CLOUD &amp; GOVTECH</span>
+                        </div>
+                        <p class="theme-text-secondary text-sm leading-relaxed font-light italic mb-6">
+                            “Structured, disciplined, and remarkably responsive. VELA delivered our cloud migration and Zero-Trust security infrastructure ahead of schedule with crystal-clear documentation at every milestone.”
+                        </p>
+                    </div>
+                    <div class="pt-4 border-t border-gold-hairline/20 flex items-center gap-3.5">
+                        <div class="w-10 h-10 rounded-full bg-velvet-600/50 border border-gold-hairline/50 flex items-center justify-center font-brand font-bold text-xs text-white shrink-0">DM</div>
+                        <div>
+                            <div class="font-brand text-sm font-bold theme-text-primary">Dr. Marcus Vance</div>
+                            <div class="font-mono text-[10px] theme-text-muted uppercase">Head of Digital Infrastructure • CivicTech Europe</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================
+         7.5 ORIGIN STORY, OPERATING SYSTEM, LIVE OPS & MAP
+    =========================================== -->
+    <section id="story-and-ops" class="relative py-24 sm:py-32 border-t border-gold-hairline/20 overflow-hidden">
+        <div class="ambient-orb w-[550px] h-[550px] bg-velvet-600/30 top-10 -left-24"></div>
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            
+            <!-- 1. THE ORIGIN STORY & FOUNDER PROFILE -->
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center mb-24 reveal-up">
+                <div class="lg:col-span-6 space-y-6">
+                    <span class="font-mono text-xs tracking-[0.28em] uppercase theme-gold font-medium block" data-i18n="story_badge">
+                        05.5 // ORIGIN STORY &amp; LEADERSHIP MINDSET
+                    </span>
+                    <h2 class="font-brand text-3xl sm:text-4xl md:text-5xl font-extrabold theme-text-primary leading-tight" data-i18n="story_title">
+                        From a Student’s Code Editor to a <span class="font-editorial italic font-semibold theme-gold">Sovereign Tech Vision</span>
+                    </h2>
+                    <p class="theme-text-secondary text-base sm:text-lg leading-relaxed font-light" data-i18n="story_p1">
+                        <strong class="theme-text-primary font-semibold">VELA</strong> was not born in a corporate boardroom—it began with the relentless curiosity of <strong class="theme-text-primary font-semibold">Aymane Assaidi</strong>, a dedicated programming student who saw how enterprises struggled with fragmented, slow, and insecure legacy software.
+                    </p>
+                    <p class="theme-text-secondary text-sm sm:text-base leading-relaxed font-light" data-i18n="story_p2">
+                        Driven by the conviction that ambitious young engineering can build world-class digital infrastructure, Aymane architected <strong class="theme-text-primary font-brand font-bold">VELORANTIS INTERNATIONAL TECHNOLOGIES</strong> around one core principle: <em>precision engineering without compromise</em>. What started as lines of code written late at night evolved into a structured ecosystem uniting AI, cloud architecture, and custom enterprise systems.
+                    </p>
+
+                    <!-- Founder Philosophy Quote Box -->
+                    <div class="theme-inner-box p-6 rounded-2xl border-l-4 rtl:border-l-0 rtl:border-r-4 border-gold-hairline space-y-2">
+                        <p class="font-editorial italic text-xl theme-text-primary" data-i18n="story_quote">
+                            “Being a student of programming taught me that great technology isn’t about complexity—it’s about clarity, discipline, and solving real human problems with elegance.”
+                        </p>
+                        <div class="font-mono text-[11px] uppercase tracking-widest theme-gold" data-i18n="story_quote_author">
+                            — Aymane Assaidi, Founder &amp; Chief Architect
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Visual Gallery: Founder & Engineering Culture -->
+                <div class="lg:col-span-6 grid grid-cols-2 gap-4">
+                    <div class="col-span-2 velvet-card rounded-3xl overflow-hidden relative h-64 border border-gold-hairline/40 group">
+                        <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=1200&q=80" 
+                             alt="Software Engineering Architecture" 
+                             loading="lazy"
+                             class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 filter brightness-75">
+                        <div class="absolute inset-0 bg-gradient-to-t from-[#11010C] via-transparent to-transparent"></div>
+                        <div class="absolute bottom-5 left-6 right-6">
+                            <span class="font-mono text-[10px] uppercase tracking-widest text-gold-hairline block" data-i18n="story_img1_tag">THE ENGINEERING CORE</span>
+                            <h4 class="font-brand text-lg font-bold text-white" data-i18n="story_img1_title">Precision Code &amp; Sovereign Architecture</h4>
+                        </div>
+                    </div>
+                    <div class="velvet-card rounded-3xl overflow-hidden relative h-48 border border-velvet-700 group">
+                        <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=800&q=80" 
+                             alt="VELA Engineering Team" 
+                             loading="lazy"
+                             class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 filter brightness-75">
+                        <div class="absolute inset-0 bg-gradient-to-t from-[#11010C] via-transparent to-transparent"></div>
+                        <div class="absolute bottom-4 left-4 right-4">
+                            <span class="font-mono text-[9px] uppercase tracking-widest text-gold-hairline block" data-i18n="story_img2_tag">COLLABORATION</span>
+                            <h5 class="font-brand text-sm font-bold text-white" data-i18n="story_img2_title">Agile Engineering Squads</h5>
+                        </div>
+                    </div>
+                    <div class="velvet-card rounded-3xl overflow-hidden relative h-48 border border-velvet-700 group">
+                        <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=800&q=80" 
+                             alt="Future Executive Hub" 
+                             loading="lazy"
+                             class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 filter brightness-75">
+                        <div class="absolute inset-0 bg-gradient-to-t from-[#11010C] via-transparent to-transparent"></div>
+                        <div class="absolute bottom-4 left-4 right-4">
+                            <span class="font-mono text-[9px] uppercase tracking-widest text-gold-hairline block" data-i18n="story_img3_tag">HEADQUARTERS</span>
+                            <h5 class="font-brand text-sm font-bold text-white" data-i18n="story_img3_title">Executive Innovation Space</h5>
+                        </div>
+                    </div>
+                    <div class="col-span-2 velvet-card rounded-3xl overflow-hidden relative h-44 border border-gold-hairline/35 group">
+                        <img src="https://images.unsplash.com/photo-1531403009284-440f080d1e12?auto=format&fit=crop&w=1200&q=80" 
+                             alt="Strategic Planning & System Blueprinting" 
+                             loading="lazy"
+                             class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 filter brightness-75">
+                        <div class="absolute inset-0 bg-gradient-to-t from-[#11010C] via-[#1A0129]/45 to-transparent"></div>
+                        <div class="absolute bottom-4 left-6 right-6 flex items-end justify-between">
+                            <div>
+                                <span class="font-mono text-[9px] uppercase tracking-widest text-gold-hairline block" data-i18n="story_img4_tag">STRATEGIC PLANNING</span>
+                                <h5 class="font-brand text-base font-bold text-white" data-i18n="story_img4_title">Architectural Roadmaps &amp; Global Scaling</h5>
+                            </div>
+                            <span class="font-mono text-[10px] text-gold-hairline border border-gold-hairline/40 px-2.5 py-0.5 rounded-full bg-velvet-950/80">BLUEPRINT</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 2. LIVE OPERATIONS HUB & TEAM TELEMETRY -->
+            <div class="velvet-card rounded-3xl p-8 sm:p-10 border border-gold-hairline/45 mb-20 reveal-up">
+                <div class="flex flex-col md:flex-row md:items-center justify-between gap-4 pb-6 mb-8 border-b border-gold-hairline/20">
+                    <div>
+                        <div class="inline-flex items-center gap-2 font-mono text-xs uppercase tracking-widest theme-gold mb-1">
+                            <span class="w-2 h-2 rounded-full bg-emerald-400 animate-ping"></span>
+                            <span data-i18n="ops_badge">LIVE OPERATIONAL BLUEPRINT // VELA COMMAND CENTER</span>
+                        </div>
+                        <h3 class="font-brand text-2xl sm:text-3xl font-extrabold theme-text-primary" data-i18n="ops_title">
+                            Our Operating System &amp; Active Engineering Squads
+                        </h3>
+                    </div>
+                    <div class="font-mono text-xs px-4 py-2 rounded-full bg-velvet-950 border border-gold-hairline/35 theme-gold">
+                        SYSTEM STATUS: <span class="text-emerald-400 font-bold">OPTIMAL (99.99%)</span>
+                    </div>
+                </div>
+
+                <!-- Live Team & Active Pods Grid -->
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 mb-8">
+                    <!-- Pod 1 -->
+                    <div class="theme-inner-box p-5 rounded-2xl border border-velvet-700 space-y-3">
+                        <div class="flex items-center justify-between">
+                            <span class="font-mono text-[10px] px-2.5 py-0.5 rounded bg-velvet-600/50 text-gold-hairline">POD 01 // CORE</span>
+                            <span class="flex items-center gap-1.5 font-mono text-[10px] text-emerald-400"><span class="w-1.5 h-1.5 rounded-full bg-emerald-400"></span> ACTIVE</span>
+                        </div>
+                        <h4 class="font-brand font-bold theme-text-primary text-base" data-i18n="pod1_t">Systems &amp; ERP Architects</h4>
+                        <p class="theme-text-muted text-xs leading-relaxed" data-i18n="pod1_d">6 Senior Engineers led by Aymane Assaidi building modular web &amp; financial cores.</p>
+                        <div class="pt-2 border-t border-gold-hairline/10 flex items-center justify-between font-mono text-[10px] theme-text-secondary">
+                            <span>Sprint Load: 88%</span>
+                            <span class="theme-gold">Zero-Debt Code</span>
+                        </div>
+                    </div>
+
+                    <!-- Pod 2 -->
+                    <div class="theme-inner-box p-5 rounded-2xl border border-velvet-700 space-y-3">
+                        <div class="flex items-center justify-between">
+                            <span class="font-mono text-[10px] px-2.5 py-0.5 rounded bg-velvet-600/50 text-gold-hairline">POD 02 // AI LABS</span>
+                            <span class="flex items-center gap-1.5 font-mono text-[10px] text-emerald-400"><span class="w-1.5 h-1.5 rounded-full bg-emerald-400"></span> TRAINING</span>
+                        </div>
+                        <h4 class="font-brand font-bold theme-text-primary text-base" data-i18n="pod2_t">AI &amp; Data Science Unit</h4>
+                        <p class="theme-text-muted text-xs leading-relaxed" data-i18n="pod2_d">4 AI Specialists deploying private RAG models and autonomous business workflows.</p>
+                        <div class="pt-2 border-t border-gold-hairline/10 flex items-center justify-between font-mono text-[10px] theme-text-secondary">
+                            <span>Models Live: 14</span>
+                            <span class="theme-gold">NDA Isolated</span>
+                        </div>
+                    </div>
+
+                    <!-- Pod 3 -->
+                    <div class="theme-inner-box p-5 rounded-2xl border border-velvet-700 space-y-3">
+                        <div class="flex items-center justify-between">
+                            <span class="font-mono text-[10px] px-2.5 py-0.5 rounded bg-velvet-600/50 text-gold-hairline">POD 03 // CLOUD</span>
+                            <span class="flex items-center gap-1.5 font-mono text-[10px] text-emerald-400"><span class="w-1.5 h-1.5 rounded-full bg-emerald-400"></span> SECURED</span>
+                        </div>
+                        <h4 class="font-brand font-bold theme-text-primary text-base" data-i18n="pod3_t">DevSecOps &amp; Infrastructure</h4>
+                        <p class="theme-text-muted text-xs leading-relaxed" data-i18n="pod3_d">3 Cloud Engineers managing multi-region deployments and Zero-Trust firewalls.</p>
+                        <div class="pt-2 border-t border-gold-hairline/10 flex items-center justify-between font-mono text-[10px] theme-text-secondary">
+                            <span>Threats Blocked: 100%</span>
+                            <span class="theme-gold">24/7 Watch</span>
+                        </div>
+                    </div>
+
+                    <!-- Pod 4 -->
+                    <div class="theme-inner-box p-5 rounded-2xl border border-velvet-700 space-y-3">
+                        <div class="flex items-center justify-between">
+                            <span class="font-mono text-[10px] px-2.5 py-0.5 rounded bg-velvet-600/50 text-gold-hairline">POD 04 // DESIGN</span>
+                            <span class="flex items-center gap-1.5 font-mono text-[10px] text-emerald-400"><span class="w-1.5 h-1.5 rounded-full bg-emerald-400"></span> CRAFTING</span>
+                        </div>
+                        <h4 class="font-brand font-bold theme-text-primary text-base" data-i18n="pod4_t">Executive UX &amp; Brand Studio</h4>
+                        <p class="theme-text-muted text-xs leading-relaxed" data-i18n="pod4_d">3 Product Designers crafting high-contrast interfaces and executive dashboards.</p>
+                        <div class="pt-2 border-t border-gold-hairline/10 flex items-center justify-between font-mono text-[10px] theme-text-secondary">
+                            <span>Design System: v4.2</span>
+                            <span class="theme-gold">Pixel-Exact</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- International Engineering Roster & Live Movement -->
+                <div class="mb-6">
+                    <div class="flex items-center justify-between mb-3">
+                        <span class="font-mono text-[10px] uppercase tracking-widest theme-gold" data-i18n="roster_title">ACTIVE INTERNATIONAL SPECIALISTS (LIVE STATUS)</span>
+                        <span class="font-mono text-[10px] theme-text-muted">SYNCED WITH NADOR HQ</span>
+                    </div>
+                    <div id="live-staff-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3.5">
+                        <div class="p-3.5 rounded-xl bg-velvet-950/90 border border-gold-hairline/30 flex items-center justify-between gap-2 transition-all">
+                            <div class="flex items-center gap-2.5">
+                                <div class="w-8 h-8 rounded-full bg-velvet-600/60 border border-gold-hairline/50 flex items-center justify-center font-brand font-bold text-xs text-white">LV</div>
+                                <div>
+                                    <div class="font-brand text-xs font-bold text-white">Lukas Vance</div>
+                                    <div class="font-mono text-[9px] text-lavender-muted">Principal Systems • Berlin</div>
+                                </div>
+                            </div>
+                            <span class="staff-status font-mono text-[9px] px-2 py-0.5 rounded-full bg-emerald-500/20 text-emerald-300 border border-emerald-400/30">Deploying</span>
+                        </div>
+
+                        <div class="p-3.5 rounded-xl bg-velvet-950/90 border border-gold-hairline/30 flex items-center justify-between gap-2 transition-all">
+                            <div class="flex items-center gap-2.5">
+                                <div class="w-8 h-8 rounded-full bg-velvet-600/60 border border-gold-hairline/50 flex items-center justify-center font-brand font-bold text-xs text-white">ER</div>
+                                <div>
+                                    <div class="font-brand text-xs font-bold text-white">Elena Rostova</div>
+                                    <div class="font-mono text-[9px] text-lavender-muted">Lead AI Scientist • Zurich</div>
+                                </div>
+                            </div>
+                            <span class="staff-status font-mono text-[9px] px-2 py-0.5 rounded-full bg-amber-500/20 text-amber-300 border border-amber-400/30">Training LLM</span>
+                        </div>
+
+                        <div class="p-3.5 rounded-xl bg-velvet-950/90 border border-gold-hairline/30 flex items-center justify-between gap-2 transition-all">
+                            <div class="flex items-center gap-2.5">
+                                <div class="w-8 h-8 rounded-full bg-velvet-600/60 border border-gold-hairline/50 flex items-center justify-center font-brand font-bold text-xs text-white">MS</div>
+                                <div>
+                                    <div class="font-brand text-xs font-bold text-white">Marcus Sterling</div>
+                                    <div class="font-mono text-[9px] text-lavender-muted">Cloud Architect • London</div>
+                                </div>
+                            </div>
+                            <span class="staff-status font-mono text-[9px] px-2 py-0.5 rounded-full bg-emerald-500/20 text-emerald-300 border border-emerald-400/30">Securing Mesh</span>
+                        </div>
+
+                        <div class="p-3.5 rounded-xl bg-velvet-950/90 border border-gold-hairline/30 flex items-center justify-between gap-2 transition-all">
+                            <div class="flex items-center gap-2.5">
+                                <div class="w-8 h-8 rounded-full bg-velvet-600/60 border border-gold-hairline/50 flex items-center justify-center font-brand font-bold text-xs text-white">CM</div>
+                                <div>
+                                    <div class="font-brand text-xs font-bold text-white">Camille Moreau</div>
+                                    <div class="font-mono text-[9px] text-lavender-muted">UX Director • Paris</div>
+                                </div>
+                            </div>
+                            <span class="staff-status font-mono text-[9px] px-2 py-0.5 rounded-full bg-purple-500/20 text-purple-300 border border-purple-400/30">Prototyping</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Interactive Live Activity Ticker -->
+                <div class="p-4 rounded-2xl bg-velvet-950/90 border border-gold-hairline/30 flex flex-col sm:flex-row items-center justify-between gap-3">
+                    <div class="flex items-center gap-3">
+                        <span class="font-mono text-[10px] uppercase px-2.5 py-1 rounded bg-gold-hairline/20 text-gold-hairline font-bold shrink-0 animate-pulse">LIVE TELEMETRY</span>
+                        <p id="live-ops-ticker" class="font-mono text-xs text-lavender-soft transition-opacity duration-300">
+                            [LIVE] Lukas Vance (Berlin) synced ERP Core v2.4 with Nador HQ under Aymane Assaidi's review...
+                        </p>
+                    </div>
+                    <span class="font-mono text-[10px] text-lavender-muted shrink-0">VELA INTERNAL OS</span>
+                </div>
+            </div>
+
+            <!-- 3. INTERACTIVE COMPANY MAP & FUTURE AMBITIONS -->
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-stretch reveal-up">
+                
+                <!-- Interactive Stylized Company Map (7 Cols) -->
+                <div class="lg:col-span-7 velvet-card rounded-3xl p-8 border border-gold-hairline/40 flex flex-col justify-between relative overflow-hidden">
+                    <div>
+                        <span class="font-mono text-xs tracking-[0.24em] uppercase theme-gold block mb-2" data-i18n="map_badge">GLOBAL FOOTPRINT &amp; OPERATIONAL MAP</span>
+                        <h3 class="font-brand text-2xl font-extrabold theme-text-primary mb-2" data-i18n="map_title">Where VELA Builds &amp; Expands</h3>
+                        <p class="theme-text-secondary text-sm font-light mb-6" data-i18n="map_desc">
+                            Rooted in Nador, Morocco with distributed cloud nodes and strategic partnerships spanning Europe and the MENA region.
+                        </p>
+                    </div>
+
+                    <!-- Interactive Node Map -->
+                    <div class="relative rounded-2xl bg-velvet-950 border border-velvet-700 p-6 min-h-[260px] flex flex-col justify-between overflow-hidden luxury-grid">
+                        <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 relative z-10 my-auto">
+                            <!-- Hub 1 -->
+                            <div class="p-4 rounded-xl bg-velvet-900/90 border border-gold-hairline/60 shadow-lg">
+                                <div class="flex items-center justify-between mb-2">
+                                    <span class="w-2.5 h-2.5 rounded-full bg-gold-hairline animate-ping"></span>
+                                    <span class="font-mono text-[9px] text-gold-hairline uppercase">PRIMARY HQ</span>
+                                </div>
+                                <h5 class="font-brand font-bold text-white text-sm" data-i18n="hub1_t">Nador, Morocco</h5>
+                                <p class="text-[11px] text-lavender-muted mt-1" data-i18n="hub1_d">Executive Command, Core Engineering &amp; R&amp;D Hub</p>
+                            </div>
+
+                            <!-- Hub 2 -->
+                            <div class="p-4 rounded-xl bg-velvet-900/70 border border-velvet-700 hover:border-gold-hairline/50 transition-colors">
+                                <div class="flex items-center justify-between mb-2">
+                                    <span class="w-2 h-2 rounded-full bg-emerald-400"></span>
+                                    <span class="font-mono text-[9px] text-lavender-muted uppercase">EUROPE NODE</span>
+                                </div>
+                                <h5 class="font-brand font-bold text-white text-sm" data-i18n="hub2_t">Paris &amp; Amsterdam</h5>
+                                <p class="text-[11px] text-lavender-muted mt-1" data-i18n="hub2_d">Enterprise Client Advisory &amp; Cloud Sovereign Clusters</p>
+                            </div>
+
+                            <!-- Hub 3 -->
+                            <div class="p-4 rounded-xl bg-velvet-900/70 border border-velvet-700 hover:border-gold-hairline/50 transition-colors">
+                                <div class="flex items-center justify-between mb-2">
+                                    <span class="w-2 h-2 rounded-full bg-purple-400"></span>
+                                    <span class="font-mono text-[9px] text-lavender-muted uppercase">MENA EXPANSION</span>
+                                </div>
+                                <h5 class="font-brand font-bold text-white text-sm" data-i18n="hub3_t">Riyadh &amp; Dubai</h5>
+                                <p class="text-[11px] text-lavender-muted mt-1" data-i18n="hub3_d">FinTech Venture Building &amp; GovTech Partnerships</p>
+                            </div>
+                        </div>
+
+                        <div class="mt-6 pt-3 border-t border-velvet-700/70 flex items-center justify-between font-mono text-[10px] text-lavender-muted">
+                            <span>LAT: 35.1681° N | LON: 2.9335° W</span>
+                            <span class="text-gold-hairline">DISTRIBUTED REMOTE-FIRST ARCHITECTURE</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Our Future Ambitions 2030 (5 Cols) -->
+                <div class="lg:col-span-5 velvet-card rounded-3xl p-8 border border-gold-hairline/45 flex flex-col justify-between">
+                    <div>
+                        <span class="font-mono text-xs tracking-[0.24em] uppercase theme-gold block mb-2" data-i18n="amb_badge">HORIZON 2030 // OUR AMBITIONS</span>
+                        <h3 class="font-brand text-2xl font-extrabold theme-text-primary mb-4" data-i18n="amb_title">Where We Are Going</h3>
+                        <p class="theme-text-secondary text-sm leading-relaxed font-light mb-6" data-i18n="amb_desc">
+                            Our ambition is to transform <strong class="theme-text-primary font-semibold">VELA</strong> into a premier sovereign technology powerhouse—proving that young, visionary engineering can set new global benchmarks.
+                        </p>
+
+                        <div class="space-y-4">
+                            <div class="flex items-start gap-3">
+                                <span class="font-mono text-xs font-bold theme-gold bg-velvet-950 border border-gold-hairline/40 px-2.5 py-1 rounded-lg">01</span>
+                                <div>
+                                    <h5 class="font-brand font-bold text-sm theme-text-primary" data-i18n="amb1_t">Proprietary Sovereign AI Models</h5>
+                                    <p class="theme-text-muted text-xs mt-0.5" data-i18n="amb1_d">Developing localized, ultra-secure Arabic &amp; multilingual enterprise AI engines.</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start gap-3">
+                                <span class="font-mono text-xs font-bold theme-gold bg-velvet-950 border border-gold-hairline/40 px-2.5 py-1 rounded-lg">02</span>
+                                <div>
+                                    <h5 class="font-brand font-bold text-sm theme-text-primary" data-i18n="amb2_t">VELA Venture Studio</h5>
+                                    <p class="theme-text-muted text-xs mt-0.5" data-i18n="amb2_d">Incubating and launching 10+ high-impact SaaS and FinTech startups from scratch.</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start gap-3">
+                                <span class="font-mono text-xs font-bold theme-gold bg-velvet-950 border border-gold-hairline/40 px-2.5 py-1 rounded-lg">03</span>
+                                <div>
+                                    <h5 class="font-brand font-bold text-sm theme-text-primary" data-i18n="amb3_t">Empowering Young Tech Talent</h5>
+                                    <p class="theme-text-muted text-xs mt-0.5" data-i18n="amb3_d">Mentoring the next generation of programming students to become world-class system architects.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="pt-6 mt-6 border-t border-gold-hairline/20">
+                        <a href="#contact" class="magnetic-btn interactive-target w-full btn-velvet-primary py-3.5 rounded-xl font-brand text-xs tracking-[0.14em] uppercase font-bold flex items-center justify-center gap-2">
+                            <span data-i18n="amb_cta">Partner With Our Vision</span>
+                            <span class="rtl:rotate-180">→</span>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================
+         8. ABOUT VELA, CORPORATE OVERVIEW & EXECUTIVE LEADERSHIP
+    =========================================== -->
+    <section id="leadership" class="relative py-24 sm:py-32 theme-section-alt border-y border-gold-hairline/20 overflow-hidden">
+        <div class="ambient-orb w-[480px] h-[480px] bg-velvet-600/30 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"></div>
+        
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
+                
+                <div class="lg:col-span-7 space-y-6 reveal-up">
+                    <span class="font-mono text-xs tracking-[0.28em] uppercase theme-gold font-medium block" data-i18n="about_badge">06 // ABOUT VELA &amp; EXECUTIVE GOVERNANCE</span>
+                    <h2 class="font-brand text-3xl sm:text-4xl md:text-5xl font-extrabold theme-text-primary leading-tight" data-i18n="about_title">
+                        Guided by Visionary <span class="theme-gold">Sovereignty</span> &amp; Institutional Rigor
+                    </h2>
+                    <p class="theme-text-secondary text-base sm:text-lg leading-relaxed font-light" data-i18n="about_p1">
+                        <strong class="theme-text-primary font-brand font-bold">VELORANTIS INTERNATIONAL TECHNOLOGIES (VELA)</strong> was established as a sovereign technology conglomerate dedicated to engineering next-generation digital infrastructure, applied artificial intelligence, and enterprise ecosystems for global corporations, financial leaders, and public institutions.
+                    </p>
+                    <p class="theme-text-secondary text-sm sm:text-base leading-relaxed font-light" data-i18n="about_p2">
+                        Under the direct executive leadership of Founder &amp; CEO <strong class="theme-text-primary font-brand font-bold">Aymane Assaidi</strong>, we eliminate reliance on fragmented legacy software—delivering unified, high-security architectures built for long-term technological independence.
+                    </p>
+                    
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-5 pt-2">
+                        <div class="p-5 rounded-2xl theme-inner-box border hover:border-gold-hairline/55 transition-colors">
+                            <h4 class="font-brand theme-text-primary font-bold text-base mb-1.5 flex items-center gap-2.5">
+                                <span class="w-2 h-2 rounded-full bg-gold-hairline"></span>
+                                <span data-i18n="about_card1_t">100% Client IP Sovereignty</span>
+                            </h4>
+                            <p class="theme-text-muted text-sm leading-relaxed font-light" data-i18n="about_card1_d">Every line of source code, trained AI model, and cloud environment belongs exclusively to your institution under binding NDA governance.</p>
+                        </div>
+                        <div class="p-5 rounded-2xl theme-inner-box border hover:border-gold-hairline/55 transition-colors">
+                            <h4 class="font-brand theme-text-primary font-bold text-base mb-1.5 flex items-center gap-2.5">
+                                <span class="w-2 h-2 rounded-full bg-gold-hairline"></span>
+                                <span data-i18n="about_card2_t">Direct Executive Stewardship</span>
+                            </h4>
+                            <p class="theme-text-muted text-sm leading-relaxed font-light" data-i18n="about_card2_d">Strategic mandates receive direct architectural oversight from Founder &amp; CEO Aymane Assaidi and VELA Principal Leads.</p>
+                        </div>
+                    </div>
+
+                    <div class="grid grid-cols-3 gap-3 pt-1">
+                        <div class="p-3.5 rounded-2xl theme-inner-box border text-center">
+                            <div class="font-brand text-lg sm:text-xl font-extrabold theme-gold">NDA</div>
+                            <div class="font-mono text-[9px] sm:text-[10px] uppercase tracking-wider theme-text-muted mt-0.5">Strict Confidentiality</div>
+                        </div>
+                        <div class="p-3.5 rounded-2xl theme-inner-box border text-center">
+                            <div class="font-brand text-lg sm:text-xl font-extrabold theme-text-primary">24h SLA</div>
+                            <div class="font-mono text-[9px] sm:text-[10px] uppercase tracking-wider theme-text-muted mt-0.5">Executive Response</div>
+                        </div>
+                        <div class="p-3.5 rounded-2xl theme-inner-box border text-center">
+                            <div class="font-brand text-lg sm:text-xl font-extrabold theme-gold">Zero-Trust</div>
+                            <div class="font-mono text-[9px] sm:text-[10px] uppercase tracking-wider theme-text-muted mt-0.5">Security Architecture</div>
+                        </div>
+                    </div>
+
+                    <div class="pt-2">
+                        <div class="p-6 rounded-2xl bg-gradient-to-r from-velvet-800/95 to-velvet-950/95 border border-gold-hairline/50 flex flex-col sm:flex-row sm:items-center justify-between gap-4 shadow-xl">
+                            <div>
+                                <span class="font-mono text-[10px] tracking-[0.26em] uppercase text-gold-hairline font-medium block mb-1">FOUNDER &amp; CHIEF EXECUTIVE OFFICER</span>
+                                <h3 class="font-brand text-2xl font-extrabold text-white tracking-tight">Aymane Assaidi</h3>
+                                <p class="text-lavender-soft/85 text-xs sm:text-sm font-light mt-0.5">VELORANTIS INTERNATIONAL TECHNOLOGIES (VELA)</p>
+                            </div>
+                            <div class="font-editorial italic text-gold-hairline text-2xl sm:text-3xl tracking-wide border-t sm:border-t-0 sm:border-l rtl:sm:border-l-0 rtl:sm:border-r border-gold-hairline/35 pt-3 sm:pt-0 sm:pl-6 rtl:sm:pl-0 rtl:sm:pr-6 shrink-0">
+                                Aymane Assaidi
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="lg:col-span-5 reveal-up" style="transition-delay: 120ms;">
+                    <div class="velvet-card tilt-card relative rounded-3xl p-8 sm:p-10 bg-gradient-to-br from-velvet-800 via-velvet-900 to-velvet-950 border border-gold-hairline/50 shadow-2xl overflow-hidden group">
+                        <div class="absolute -top-20 -right-20 w-56 h-56 rounded-full border border-gold-hairline/30 pointer-events-none group-hover:scale-110 transition-transform duration-700"></div>
+                        <div class="absolute -bottom-24 -left-24 w-64 h-64 rounded-full bg-velvet-600/35 blur-2xl pointer-events-none"></div>
+
+                        <div class="relative z-10 text-center py-6 space-y-6">
+                            <div class="w-20 h-20 mx-auto rounded-full bg-velvet-950 border border-gold-hairline/65 flex items-center justify-center shadow-2xl">
+                                <svg class="w-12 h-12" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="32" cy="32" r="30" fill="#15011D"/>
+                                    <path d="M14 18H22.2L32 37.5L41.8 18H50L34.8 48H29.2L14 18Z" fill="#FFFFFF"/>
+                                    <path d="M24.2 18H28.3L32 25.6L35.7 18H39.8L33.4 31H30.6L24.2 18Z" fill="#E5C185"/>
+                                </svg>
+                            </div>
+                            
+                            <div>
+                                <div class="font-brand text-3xl font-extrabold tracking-[0.3em] text-white">VELA</div>
+                                <div class="font-mono text-[10px] tracking-[0.2em] text-gold-hairline uppercase mt-2">VELORANTIS INTERNATIONAL TECHNOLOGIES</div>
+                            </div>
+
+                            <div class="w-24 h-[1px] mx-auto bg-gradient-to-r from-transparent via-gold-hairline/80 to-transparent"></div>
+
+                            <p class="font-editorial italic text-lg sm:text-xl text-lavender-soft/95 leading-relaxed px-2">
+                                “We build sovereign digital infrastructure, intelligent systems, and enduring ventures designed to empower enterprises and nations.”
+                            </p>
+
+                            <!-- Executive Command Visual: Founder Inspecting Live Company Map & Operations -->
+                            <div class="relative rounded-2xl overflow-hidden border border-gold-hairline/45 h-48 my-3 group/founder">
+                                <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1000&q=85"
+                                     alt="Aymane Assaidi Inspecting VELA Global Operations Map"
+                                     class="w-full h-full object-cover object-center group-hover/founder:scale-105 transition-transform duration-700 filter brightness-75 contrast-110">
+                                <div class="absolute inset-0 bg-gradient-to-t from-[#11010C] via-[#1A0129]/45 to-transparent"></div>
+                                <div class="absolute top-3 left-3 right-3 flex items-center justify-between">
+                                    <span class="font-mono text-[9px] uppercase tracking-widest px-2.5 py-1 rounded-full bg-velvet-950/90 border border-gold-hairline/50 text-gold-hairline flex items-center gap-1.5">
+                                        <span class="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-ping"></span>
+                                        EXECUTIVE COMMAND VIEW
+                                    </span>
+                                    <span class="font-mono text-[9px] text-white/80 bg-velvet-950/80 px-2 py-0.5 rounded">LIVE MAP</span>
+                                </div>
+                                <div class="absolute bottom-3 left-4 right-4 text-left rtl:text-right">
+                                    <div class="font-brand text-xs font-bold text-white" data-i18n="founder_map_caption">Aymane Assaidi — Monitoring Global Nodes &amp; Architecture</div>
+                                    <div class="font-mono text-[9px] text-gold-hairline">NADOR HQ • PARIS • AMSTERDAM • DUBAI</div>
+                                </div>
+                            </div>
+
+                            <div class="pt-1">
+                                <div class="font-brand text-base font-bold text-white tracking-wide">Aymane Assaidi</div>
+                                <div class="font-mono text-[10px] tracking-[0.24em] text-gold-hairline uppercase mt-0.5">Founder &amp; CEO</div>
+                            </div>
+
+                            <div class="pt-2 flex items-center justify-center gap-3 text-[11px] font-mono tracking-[0.2em] text-lavender-muted uppercase">
+                                <span>EST. 2026</span>
+                                <span class="text-gold-hairline">•</span>
+                                <span>GLOBAL CHARTER</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================
+         9. EXECUTIVE DESK, OFFICIAL CHANNELS & CONSULTATION FORM
+    =========================================== -->
+    <section id="contact" class="relative py-24 sm:py-32">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 reveal-up">
+            
+            <div class="text-center max-w-3xl mx-auto mb-14">
+                <span class="font-mono text-xs tracking-[0.28em] uppercase theme-gold font-medium block mb-3" data-i18n="contact_badge">07 // EXECUTIVE DESK &amp; GLOBAL INQUIRIES</span>
+                <h2 class="font-brand text-3xl sm:text-4xl md:text-5xl font-extrabold theme-text-primary mb-4" data-i18n="contact_title">
+                    Initiate a <span class="font-editorial italic font-semibold theme-gold">Sovereign Mandate</span>
+                </h2>
+                <p class="theme-text-secondary text-sm sm:text-base md:text-lg font-light leading-relaxed" data-i18n="contact_sub">
+                    Reach our official institutional email desks directly or submit a confidential project briefing below. Every inquiry is reviewed under strict NDA protection by <span class="theme-text-primary font-semibold">Aymane Assaidi</span> and the <span class="theme-text-primary font-brand font-bold">VELA</span> Executive Architecture Desk.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-10 items-start">
+                
+                <div class="lg:col-span-5 space-y-5">
+                    <div class="velvet-card rounded-3xl p-6 border border-gold-hairline/40 hover:border-gold-hairline transition-all">
+                        <div class="flex items-center justify-between mb-2">
+                            <span class="font-mono text-[10px] tracking-[0.2em] uppercase theme-gold">OFFICE OF THE FOUNDER &amp; CEO</span>
+                            <span class="w-2 h-2 rounded-full bg-emerald-400"></span>
+                        </div>
+                        <h3 class="font-brand text-base sm:text-lg font-bold theme-text-primary mb-1">Executive &amp; Strategic Partnerships</h3>
+                        <p class="theme-text-muted text-xs leading-relaxed mb-4">Direct correspondence with CEO Aymane Assaidi, board alliances, and enterprise retainers.</p>
+                        
+                        <div class="flex items-center justify-between gap-2 p-3 rounded-xl theme-inner-box border">
+                            <a href="mailto:executive@velorantis.com" class="interactive-target font-mono text-xs sm:text-sm theme-gold font-semibold truncate hover:underline">
+                                executive@velorantis.com
+                            </a>
+                            <button type="button" data-copy-email="executive@velorantis.com" class="copy-email-btn interactive-target shrink-0 px-3 py-1.5 rounded-lg bg-velvet-600/70 hover:bg-velvet-600 border border-gold-hairline/40 font-mono text-[10px] uppercase tracking-wider text-white transition-all">
+                                Copy
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="velvet-card rounded-3xl p-6 border border-velvet-700 hover:border-gold-hairline/55 transition-all">
+                        <div class="flex items-center justify-between mb-2">
+                            <span class="font-mono text-[10px] tracking-[0.2em] uppercase theme-gold">SOLUTIONS &amp; ARCHITECTURE</span>
+                            <span class="font-mono text-[10px] theme-text-muted">24H SLA</span>
+                        </div>
+                        <h3 class="font-brand text-base sm:text-lg font-bold theme-text-primary mb-1">New Mandates &amp; Technical Quotes</h3>
+                        <p class="theme-text-muted text-xs leading-relaxed mb-4">Web platforms, custom ERP/CRM systems, private AI automation, and venture building.</p>
+                        
+                        <div class="flex items-center justify-between gap-2 p-3 rounded-xl theme-inner-box border">
+                            <a href="mailto:mandates@velorantis.com" class="interactive-target font-mono text-xs sm:text-sm theme-text-primary font-semibold truncate hover:text-gold-hairline transition-colors">
+                                mandates@velorantis.com
+                            </a>
+                            <button type="button" data-copy-email="mandates@velorantis.com" class="copy-email-btn interactive-target shrink-0 px-3 py-1.5 rounded-lg bg-velvet-800 hover:bg-velvet-600 border border-gold-hairline/35 font-mono text-[10px] uppercase tracking-wider text-lavender-soft hover:text-white transition-all">
+                                Copy
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="velvet-card rounded-3xl p-6 border border-velvet-700 hover:border-gold-hairline/55 transition-all">
+                        <div class="flex items-center justify-between mb-2">
+                            <span class="font-mono text-[10px] tracking-[0.2em] uppercase theme-gold">SOVEREIGN INFRASTRUCTURE</span>
+                            <span class="font-mono text-[10px] theme-text-muted">VELA LABS</span>
+                        </div>
+                        <h3 class="font-brand text-base sm:text-lg font-bold theme-text-primary mb-1">GovTech &amp; Institutional R&amp;D</h3>
+                        <p class="theme-text-muted text-xs leading-relaxed mb-4">Public-sector digital transformation, municipal portals, and sovereign cloud tenders.</p>
+                        
+                        <div class="flex items-center justify-between gap-2 p-3 rounded-xl theme-inner-box border">
+                            <a href="mailto:govtech@velorantis.com" class="interactive-target font-mono text-xs sm:text-sm theme-text-primary font-semibold truncate hover:text-gold-hairline transition-colors">
+                                govtech@velorantis.com
+                            </a>
+                            <button type="button" data-copy-email="govtech@velorantis.com" class="copy-email-btn interactive-target shrink-0 px-3 py-1.5 rounded-lg bg-velvet-800 hover:bg-velvet-600 border border-gold-hairline/35 font-mono text-[10px] uppercase tracking-wider text-lavender-soft hover:text-white transition-all">
+                                Copy
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="p-5 rounded-3xl theme-inner-box border border-gold-hairline/30 space-y-2.5">
+                        <div class="flex items-center gap-2 font-mono text-[10px] uppercase tracking-widest theme-gold">
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"/>
+                            </svg>
+                            <span>INSTITUTIONAL ENGAGEMENT PROTOCOL</span>
+                        </div>
+                        <p class="theme-text-muted text-xs leading-relaxed">
+                            All architectural briefs, proprietary datasets, and venture concepts submitted to VELA are protected by automatic bilateral <strong class="theme-text-primary">Non-Disclosure Agreement (NDA)</strong> standards.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="lg:col-span-7 velvet-card rounded-3xl p-7 sm:p-10 md:p-11 relative overflow-hidden">
+                    <div class="absolute top-0 inset-x-0 h-[2px] bg-gradient-to-r from-transparent via-gold-hairline/85 to-transparent"></div>
+
+                    <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 pb-6 mb-6 border-b border-gold-hairline/20">
+                        <div>
+                            <span class="font-mono text-[10px] tracking-[0.22em] uppercase theme-gold block">CONFIDENTIAL MANDATE DOSSIER</span>
+                            <h3 class="font-brand text-xl sm:text-2xl font-extrabold theme-text-primary mt-0.5">Executive Consultation Briefing</h3>
+                        </div>
+                        <span class="inline-flex items-center gap-1.5 font-mono text-[10px] px-3 py-1 rounded-full bg-velvet-950/90 border border-gold-hairline/35 theme-gold self-start sm:self-center">
+                            <span class="w-1.5 h-1.5 rounded-full bg-gold-hairline animate-pulse"></span>
+                            NDA PROTECTED
+                        </span>
+                    </div>
+
+                    <form id="vela-contact-form" class="space-y-5">
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
+                            <div>
+                                <label for="fullName" class="block font-mono text-xs uppercase tracking-wider theme-text-secondary mb-2">Full Name &amp; Organization</label>
+                                <input type="text" id="fullName" required placeholder="e.g., Sarah Jenkins — Horizon Group"
+                                       class="interactive-target w-full px-4 py-3.5 rounded-xl theme-inner-box border theme-text-primary placeholder-lavender-muted/50 focus:outline-none focus:border-gold-hairline focus:ring-1 focus:ring-gold-hairline/50 transition-all">
+                            </div>
+                            <div>
+                                <label for="email" class="block font-mono text-xs uppercase tracking-wider theme-text-secondary mb-2">Corporate or Institutional Email</label>
+                                <input type="email" id="email" required placeholder="s.jenkins@horizongroup.com"
+                                       class="interactive-target w-full px-4 py-3.5 rounded-xl theme-inner-box border theme-text-primary placeholder-lavender-muted/50 focus:outline-none focus:border-gold-hairline focus:ring-1 focus:ring-gold-hairline/50 transition-all">
+                            </div>
+                        </div>
+
+                        <div>
+                            <label for="divisionSelect" class="block font-mono text-xs uppercase tracking-wider theme-text-secondary mb-2">Primary VELA Division / Mandate Scope</label>
+                            <select id="divisionSelect"
+                                    class="interactive-target w-full px-4 py-3.5 rounded-xl theme-inner-box border theme-text-primary focus:outline-none focus:border-gold-hairline focus:ring-1 focus:ring-gold-hairline/50 transition-all">
+                                <option value="Division 01: Sovereign Web & Enterprise Systems (ERP/CRM)">Division 01: Sovereign Web &amp; Enterprise Systems (ERP/CRM)</option>
+                                <option value="Division 02: Artificial Intelligence & Data Intelligence">Division 02: Artificial Intelligence &amp; Data Intelligence</option>
+                                <option value="Division 03: Enterprise IT Infrastructure & Venture Building">Division 03: Enterprise IT Infrastructure &amp; Venture Building</option>
+                                <option value="Division 04: VELA Labs & Public-Sector Innovation (GovTech)">Division 04: VELA Labs &amp; Public-Sector Innovation (GovTech)</option>
+                                <option value="Multi-Division Sovereign Mandate (Configured Blueprint)">Multi-Division Sovereign Mandate (Configured Blueprint)</option>
+                            </select>
+                        </div>
+
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
+                            <div>
+                                <label for="budgetSelect" class="block font-mono text-xs uppercase tracking-wider theme-text-secondary mb-2">Estimated Investment Scope</label>
+                                <select id="budgetSelect"
+                                        class="interactive-target w-full px-4 py-3.5 rounded-xl theme-inner-box border theme-text-primary focus:outline-none focus:border-gold-hairline focus:ring-1 focus:ring-gold-hairline/50 transition-all">
+                                    <option value="$15,000 – $35,000 (Growth Platform / MVP)">$15,000 – $35,000 (Growth Platform / MVP)</option>
+                                    <option value="$35,000 – $75,000 (Enterprise System / AI Suite)" selected>$35,000 – $75,000 (Enterprise System / AI Suite)</option>
+                                    <option value="$75,000 – $150,000+ (Full Ecosystem / Venture Build)">$75,000 – $150,000+ (Full Ecosystem / Venture Build)</option>
+                                    <option value="Institutional / GovTech Sovereign Tender">Institutional / GovTech Sovereign Tender</option>
+                                </select>
+                            </div>
+                            <div>
+                                <label for="timelineSelect" class="block font-mono text-xs uppercase tracking-wider theme-text-secondary mb-2">Target Deployment Timeline</label>
+                                <select id="timelineSelect"
+                                        class="interactive-target w-full px-4 py-3.5 rounded-xl theme-inner-box border theme-text-primary focus:outline-none focus:border-gold-hairline focus:ring-1 focus:ring-gold-hairline/50 transition-all">
+                                    <option value="Priority Fast-Track (4–6 Weeks)">Priority Fast-Track (4–6 Weeks)</option>
+                                    <option value="Standard Enterprise Cadence (6–12 Weeks)" selected>Standard Enterprise Cadence (6–12 Weeks)</option>
+                                    <option value="Multi-Phase Strategic Rollout (3–6 Months)">Multi-Phase Strategic Rollout (3–6 Months)</option>
+                                    <option value="Advisory / Long-Term Retainer">Advisory / Long-Term Retainer</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div>
+                            <label for="message" class="block font-mono text-xs uppercase tracking-wider theme-text-secondary mb-2">Project Objectives, Architecture &amp; Requirements</label>
+                            <textarea id="message" rows="4" required placeholder="Describe your technical goals, system requirements, or startup/institutional initiative..."
+                                      class="interactive-target w-full px-4 py-3.5 rounded-xl theme-inner-box border theme-text-primary placeholder-lavender-muted/50 focus:outline-none focus:border-gold-hairline focus:ring-1 focus:ring-gold-hairline/50 transition-all resize-none"></textarea>
+                        </div>
+
+                        <label class="interactive-target flex items-center gap-3 p-3.5 rounded-xl theme-inner-box border border-velvet-700 hover:border-gold-hairline/45 transition-colors select-none">
+                            <input type="checkbox" id="briefingCallCheck" checked class="w-4 h-4 accent-[#520380] rounded">
+                            <span class="text-xs sm:text-sm theme-text-secondary">
+                                Request a <strong class="theme-text-primary">20-Minute Executive Architecture Briefing Call</strong> with Founder &amp; CEO Aymane Assaidi
+                            </span>
+                        </label>
+
+                        <div class="pt-1">
+                            <button type="submit" class="magnetic-btn interactive-target w-full btn-velvet-primary py-4 rounded-xl text-sm font-brand tracking-[0.16em] uppercase font-bold flex items-center justify-center gap-3">
+                                <span>Transmit Executive Briefing</span>
+                                <svg class="w-5 h-5 text-gold-hairline rtl:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/>
+                                </svg>
+                            </button>
+                        </div>
+                    </form>
+
+                    <div id="form-feedback" class="hidden mt-6 p-6 rounded-2xl bg-velvet-800/90 border border-gold-hairline/65 text-center transition-all shadow-xl">
+                        <div class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-velvet-600 border border-gold-hairline text-gold-hairline mb-3">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                            </svg>
+                        </div>
+                        <p id="feedback-text" class="text-white font-light text-sm sm:text-base leading-relaxed"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================
+         10. CORPORATE FOOTER
+    =========================================== -->
+    <footer class="border-t border-gold-hairline/20 py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center justify-between gap-6">
+            
+            <div class="flex items-center gap-3">
+                <div class="w-8 h-8 rounded-full bg-velvet-950 border border-gold-hairline/50 flex items-center justify-center">
+                    <svg class="w-5 h-5" viewBox="0 0 64 64" fill="none">
+                        <path d="M14 18H22.2L32 37.5L41.8 18H50L34.8 48H29.2L14 18Z" fill="#FFFFFF"/>
+                        <path d="M24.2 18H28.3L32 25.6L35.7 18H39.8L33.4 31H30.6L24.2 18Z" fill="#E5C185"/>
+                    </svg>
+                </div>
+                <span class="font-brand font-extrabold text-lg tracking-[0.26em] theme-text-primary">VELA</span>
+                <span class="text-gold-hairline/40">|</span>
+                <span class="font-mono text-[10px] sm:text-[11px] tracking-[0.15em] theme-text-muted uppercase">VELORANTIS INTERNATIONAL TECHNOLOGIES</span>
+            </div>
+
+            <div class="flex flex-wrap justify-center items-center gap-6 text-xs font-brand tracking-widest theme-text-muted uppercase">
+                <a href="#divisions" class="interactive-target hover:text-gold-hairline transition-colors">Divisions</a>
+                <a href="#masterplan" class="interactive-target hover:text-gold-hairline transition-colors">Blueprint</a>
+                <a href="#ethos" class="interactive-target hover:text-gold-hairline transition-colors">Our Ethos</a>
+                <a href="#architecture" class="interactive-target hover:text-gold-hairline transition-colors">Configurator</a>
+                <a href="#reviews" class="interactive-target hover:text-gold-hairline transition-colors">Reviews</a>
+                <a href="#leadership" class="interactive-target hover:text-gold-hairline transition-colors">About</a>
+                <a href="mailto:executive@velorantis.com" class="interactive-target hover:text-gold-hairline transition-colors">executive@velorantis.com</a>
+            </div>
+
+            <p class="text-xs theme-text-muted text-center md:text-right font-light">
+                © 2026 VELORANTIS INTERNATIONAL TECHNOLOGIES. Founder &amp; CEO: <span class="theme-gold font-semibold">Aymane Assaidi</span>.
+            </p>
+        </div>
+    </footer>
+
+    <!-- ==========================================
+         11. FLOATING VELA AI EXECUTIVE CONCIERGE WIDGET
+    =========================================== -->
+    <div id="vela-ai-concierge" class="fixed bottom-5 right-5 sm:bottom-7 sm:right-7 z-50 flex flex-col items-end">
+        <div id="vela-ai-window" class="ai-closed mb-4 w-[calc(100vw-2.5rem)] sm:w-[410px] rounded-3xl bg-velvet-950/95 backdrop-blur-2xl border border-gold-hairline/55 shadow-[0_28px_75px_rgba(17,1,12,0.95)] overflow-hidden flex flex-col">
+            <div class="h-[2px] w-full bg-gradient-to-r from-velvet-600 via-gold-hairline to-velvet-600"></div>
+
+            <div class="px-5 py-4 bg-gradient-to-r from-velvet-900 to-velvet-950 border-b border-gold-hairline/25 flex items-center justify-between gap-3">
+                <div class="flex items-center gap-3">
+                    <div class="relative w-10 h-10 rounded-full bg-velvet-950 border border-gold-hairline/65 flex items-center justify-center shadow-lg shrink-0">
+                        <svg class="w-6 h-6" viewBox="0 0 64 64" fill="none">
+                            <circle cx="32" cy="32" r="30" fill="#15011D"/>
+                            <path d="M14 18H22.2L32 37.5L41.8 18H50L34.8 48H29.2L14 18Z" fill="#FFFFFF"/>
+                            <path d="M24.2 18H28.3L32 25.6L35.7 18H39.8L33.4 31H30.6L24.2 18Z" fill="#E5C185"/>
+                        </svg>
+                        <span class="absolute -bottom-0.5 -right-0.5 w-3 h-3 rounded-full bg-emerald-400 border-2 border-velvet-950"></span>
+                    </div>
+                    <div>
+                        <div class="flex items-center gap-2">
+                            <h4 class="font-brand font-extrabold text-sm text-white tracking-wide">VELA AI Concierge</h4>
+                            <span class="font-mono text-[9px] uppercase tracking-widest px-1.5 py-0.5 rounded bg-velvet-600/60 border border-gold-hairline/40 text-gold-hairline">EXEC</span>
+                        </div>
+                        <p id="ai-status-subtitle" class="font-mono text-[10px] text-lavender-muted tracking-wider">VELORANTIS INTELLIGENCE • ONLINE</p>
+                    </div>
+                </div>
+
+                <div class="flex items-center gap-1.5">
+                    <button id="ai-lang-toggle" type="button" title="Switch AI Language (AR / EN)"
+                            class="interactive-target px-2.5 py-1 rounded-full bg-velvet-900 border border-gold-hairline/35 font-mono text-[10px] text-gold-hairline hover:border-gold-hairline transition-colors">
+                        EN / عربي
+                    </button>
+                    <button id="ai-reset-btn" type="button" title="Reset Conversation"
+                            class="interactive-target w-8 h-8 rounded-full bg-velvet-900/90 border border-velvet-700 text-lavender-soft hover:text-gold-hairline hover:border-gold-hairline/50 flex items-center justify-center transition-colors">
+                        <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"/>
+                        </svg>
+                    </button>
+                    <button id="ai-close-btn" type="button" aria-label="Close VELA AI Concierge"
+                            class="interactive-target w-8 h-8 rounded-full bg-velvet-900/90 border border-velvet-700 text-lavender-soft hover:text-white hover:border-gold-hairline/50 flex items-center justify-center transition-colors">
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+
+            <div id="vela-ai-messages" class="p-4 sm:p-5 h-[340px] overflow-y-auto space-y-4 scroll-smooth bg-gradient-to-b from-velvet-950/90 to-velvet-900/60"></div>
+            <div id="vela-ai-suggestions" class="px-4 py-2.5 bg-velvet-950/95 border-t border-velvet-700/60 flex items-center gap-2 overflow-x-auto no-scrollbar"></div>
+
+            <form id="vela-ai-form" class="p-3.5 bg-velvet-950 border-t border-gold-hairline/25 flex items-center gap-2.5">
+                <input id="vela-ai-input" type="text" autocomplete="off"
+                       placeholder="Ask about Systems, AI, Our Ethos, or Aymane Assaidi..."
+                       class="interactive-target flex-1 px-4 py-2.5 rounded-full bg-velvet-900/90 border border-velvet-700 text-xs sm:text-sm text-white placeholder-lavender-muted/60 focus:outline-none focus:border-gold-hairline transition-all">
+                <button type="submit" aria-label="Send Message"
+                        class="interactive-target w-10 h-10 rounded-full btn-velvet-primary flex items-center justify-center shrink-0">
+                    <svg class="w-4 h-4 text-gold-hairline" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2" d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8"/>
+                    </svg>
+                </button>
+            </form>
+        </div>
+
+        <button id="vela-ai-launcher" type="button" aria-label="Open VELA AI Executive Concierge"
+                class="magnetic-btn interactive-target group flex items-center gap-3 px-4 py-3 sm:px-5 sm:py-3.5 rounded-full bg-gradient-to-r from-velvet-900 via-velvet-800 to-velvet-950 border border-gold-hairline/65 hover:border-gold-hairline shadow-[0_16px_42px_rgba(82,3,128,0.65)] transition-all duration-300">
+            <div class="relative w-8 h-8 rounded-full bg-velvet-950 border border-gold-hairline/70 flex items-center justify-center">
+                <svg class="w-5 h-5" viewBox="0 0 64 64" fill="none">
+                    <path d="M14 18H22.2L32 37.5L41.8 18H50L34.8 48H29.2L14 18Z" fill="#FFFFFF"/>
+                    <path d="M24.2 18H28.3L32 25.6L35.7 18H39.8L33.4 31H30.6L24.2 18Z" fill="#E5C185"/>
+                </svg>
+                <span class="absolute -top-0.5 -right-0.5 w-2.5 h-2.5 rounded-full bg-gold-hairline animate-ping"></span>
+                <span class="absolute -top-0.5 -right-0.5 w-2.5 h-2.5 rounded-full bg-gold-hairline"></span>
+            </div>
+            <div class="text-left hidden sm:block">
+                <div class="font-brand text-xs font-extrabold text-white tracking-wide group-hover:text-gold-hairline transition-colors">VELA AI Concierge</div>
+                <div class="font-mono text-[9px] text-gold-hairline/90 uppercase tracking-widest">Ask Executive Advisor</div>
+            </div>
+        </button>
+    </div>
+
+    <!-- Separate Clean Application Script -->
+    <script src="script.js"></script>
+</body>
+</html>
